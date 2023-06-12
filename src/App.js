@@ -13,7 +13,8 @@ function App() {
         <h2>go-proxy-bingai</h2>
         <p>这是一个使用Vue3和Go构建的微软New Bing演示站点，拥有一致的UI体验，支持ChatGPT提示词，国内可用。它基本兼容微软Bing AI的所有功能，无需登录即可畅聊。</p>
         <a href="https://bing.cyrus-reed.com">查看项目</a>
-      </div    </div>
+      </div>
+    </div>
   );
 }
 
