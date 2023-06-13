@@ -1,5 +1,5 @@
 .App {
-  font-family: Arial, sans-serif;
+ font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
   background-color: #f4f4f4;
@@ -66,6 +66,6 @@ h2 {
   display: block;
 }
 
-.dropdown .dropdown-button:active + .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
