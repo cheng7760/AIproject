@@ -40,7 +40,7 @@ function App() {
               <div className="dropdown-content">
                 <a href="/gifs/bing_ios.gif" className="button">苹果教程</a>
                 <a href="/gifs/bing_android.gif" className="button">安卓教程</a>
-                <a href="/gifs/bing_pc.gif" className="button">电脑教程</a>
+                <a href="/gifs/bing_pc.gif"" className="button">电脑教程</a>
               </div>
             )}
           </div>
