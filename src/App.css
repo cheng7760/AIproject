@@ -59,6 +59,10 @@ h2 {
   flex-direction: column;
 }
 
+.dropdown-content.show {
+  display: block;
+}
+
 .dropdown-content .button {
   color: white;
   padding: 12px 16px;
