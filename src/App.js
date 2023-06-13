@@ -14,7 +14,7 @@ function App() {
         <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
-            <button onClick={() => setShowTutorialOptions1(!showTutorialOptions1)} className="button dropdown-button">
+            <button onClick={() => setShowTutorialOptions1(prevState => !prevState)} className="button dropdown-button">
               查看教程 {showTutorialOptions1 ? '▲' : '▼'}
             </button>
             {showTutorialOptions1 && (
@@ -33,7 +33,7 @@ function App() {
         <div className="button-group">
           <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
-            <button onClick={() => setShowTutorialOptions2(!showTutorialOptions2)} className="button dropdown-button">
+            <button onClick={() => setShowTutorialOptions2(prevState => !prevState)} className="button dropdown-button">
               查看教程 {showTutorialOptions2 ? '▲' : '▼'}
             </button>
             {showTutorialOptions2 && (
