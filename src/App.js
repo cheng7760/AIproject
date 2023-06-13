@@ -44,10 +44,10 @@ function App() {
               </div>
             )}
           </div>
-        </div>
+        </</div>
       </div>
     </div>
   );
 }
 
-export defaultApp;
+export default App;
