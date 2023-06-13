@@ -14,14 +14,14 @@ function App() {
         <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <button onClick={() => setShowTutorialOptions1(!showTutorialOptions1)} className="button">查看教程</button>
-          {showTutorialOptions1 && (
-            <div className="tutorial-options">
-              <a href="/gifs/chatgpt_ios.gif" className="button">苹果教程</a>
-              <a href="/gifs/chatgpt_android.gif" className="button">安卓教程</a>
-              <a href="/gifs/chatgpt_pc.gif" className="button">电脑教程</a>
-            </div>
-          )}
         </div>
+        {showTutorialOptions1 && (
+          <div className="button-group">
+            <a href="/gifs/chatgpt_ios.gif" className="button">苹果教程</a>
+            <a href="/gifs/chatgpt_android.gif" className="button">安卓教程</a>
+            <a href="/gifs/chatgpt_pc.gif" className="button">电脑教程</a>
+          </div>
+        )}
       </div>
       <div className="project">
         <h2>go-proxy-bingai</h2>
@@ -29,14 +29,14 @@ function App() {
         <div className="button-group">
           <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
           <button onClick={() => setShowTutorialOptions2(!showTutorialOptions2)} className="button">查看教程</button>
-          {showTutorialOptions2 && (
-            <div className="tutorial-options">
-              <a href="/gifs/bing_ios.gif" className="button">苹果教程</a>
-              <a href="/gifs/bing_android.gif" className="button">安卓教程</a>
-              <a href="/gifs/bing_pc.gif" className="button">电脑教程</a>
-            </div>
-          )}
         </div>
+        {showTutorialOptions2 && (
+          <div className="button-group">
+            <a href="/gifs/bing_ios.gif" className="button">苹果教程</a>
+            <a href="/gifs/bing_android.gif" className="button">安卓教程</a>
+            <a href="/gifs/bing_pc.gif" className="button">电脑教程</a>
+          </div>
+        )}
       </div>
     </div>
   );
