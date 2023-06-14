@@ -25,10 +25,9 @@ h2 {
 }
 
 .button-group {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
   gap: 40px;
-  justify-items: center;
 }
 
 .button {
@@ -48,9 +47,6 @@ h2 {
 .dropdown {
   position: relative;
   display: inline-block;
-  padding: 0;
-  margin: 0;
-  border: none;
 }
 
 .dropdown-content {
