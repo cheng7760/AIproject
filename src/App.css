@@ -65,7 +65,3 @@ h2 {
   text-decoration: none;
   display: block;
 }
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
