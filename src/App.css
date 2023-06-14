@@ -25,9 +25,10 @@ h2 {
 }
 
 .button-group {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
+  justify-items: center;
 }
 
 .button {
@@ -68,18 +69,4 @@ h2 {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
-
-/* 添加一个媒体查询，当屏幕宽度小于或等于 600px 时，应用以下样式 */
-@media (max-width: 600px) {
-  .button-group {
-    flex-direction: column;
-    align-items: center;
-  }
-  .button, .dropdown-content .button {
-    /* 设置按钮的宽度为 100%，以使它们在小屏幕设备上占满整个宽度 */
-    width: 100%;
-    /* 设置按钮的文本对齐方式为居中，以使文本在按钮中居中 */
-    text-align: center;
-  }
 }
