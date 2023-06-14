@@ -72,6 +72,10 @@ h2 {
 
 /* 添加一个媒体查询，当屏幕宽度小于或等于 600px 时，应用以下样式 */
 @media (max-width: 600px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
   .button, .dropdown-content .button {
     /* 设置按钮的宽度为 100%，以使它们在小屏幕设备上占满整个宽度 */
     width: 100%;
