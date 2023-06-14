@@ -11,17 +11,21 @@ function App() {
       <div className="project">
         <h2>ChatGPT-Next-Web</h2>
         <p>这是一个ChatGPT网页用户界面。它的设计精美，用户体验优秀，支持Markdown格式，包括LaTex、mermaid、代码高亮等。它还支持响应式设计，深色模式和PWA，【测试密钥：3sX8rT6yU1vB7n】。</p>
-<div className="button-group">
+        <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
-            <button onClick={() => setShowTutorialOptions1(!showTutorialOptions1)} className="button dropdown-button">
-              查看教程 {showTutorialOptions1 ? '▲' : '▼'}
+            <button className="button dropdown-button">
+              <span onClick={() => setShowTutorialOptions1(!showTutorialOptions1)}>
+                查看教程 {showTutorialOptions1 ? '▲' : '▼'}
+              </span>
             </button>
-            <div className={`dropdown-content ${showTutorialOptions1 ? 'show' : ''}`}>
+            {showTutorialOptions1 && (
+              <div className="dropdown-content">
                 <a href="/gifs/chatgpt_ios.gif" className="button">苹果教程</a>
                 <a href="/gifs/chatgpt_android.gif" className="button">安卓教程</a>
                 <a href="/gifs/chatgpt_pc.gif" className="button">电脑教程</a>
-            </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -31,14 +35,18 @@ function App() {
         <div className="button-group">
           <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
-            <button onClick={() => setShowTutorialOptions2(!showTutorialOptions2)} className="button dropdown-button">
-              查看教程 {showTutorialOptions2 ? '▲' : '▼'}
+            <button className="button dropdown-button">
+              <span onClick={() => setShowTutorialOptions2(!showTutorialOptions2)}>
+                查看教程 {showTutorialOptions2 ? '▲' : '▼'}
+              </span>
             </button>
-            <div className={`dropdown-content ${showTutorialOptions2 ? 'show' : ''}`}>
+            {showTutorialOptions2 && (
+              <div className="dropdown-content">
                 <a href="/gifs/bing_ios.gif" className="button">苹果教程</a>
                 <a href="/gifs/bing_android.gif" className="button">安卓教程</a>
                 <a href="/gifs/bing_pc.gif" className="button">电脑教程</a>
-            </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
