@@ -10,7 +10,7 @@ function App() {
       <h1>欢迎光临Cyrus的科技小站</h1>
       <div className="project">
         <h2>ChatGPT</h2>
-        <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。它基于GPT-3.5语言模型，可以以对话的形式与用户交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题，遵守道德和安全的原则。ChatGPT是一个先进的产品，可以为用户带来乐趣和价值，【测试密码：3sX8rT6yU1vB7n】。</p>
+        <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。它基于GPT-3.5语言模型，可以以对话的形式与用户交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题，遵守道德和安全的原则。【测试密码：3sX8rT6yU1vB7n】。</p>
 <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
@@ -27,7 +27,7 @@ function App() {
       </div>
       <div className="project">
         <h2>Bing Ai</h2>
-        <p>Bing AI是一个全新的人工智能搜索引擎和浏览器，由微软开发和发布。它基于OpenAI的GPT-4语言模型上，这是目前最强大的语言模型，可以理解和生成各种类型的文本，包括视觉输入。其可以为用户提供更好的搜索，更完整的答案，更互动的聊天和更有创意的内容。Bing AI是用户在网上的智能副驾驶，可以帮助解决各种问题和任务。</p>
+        <p>Bing AI是一个全新的人工智能搜索引擎，由微软开发和发布。它基于OpenAI的GPT-4语言模型，这是目前最强大的语言模型，可以理解和生成各种类型的文本，包括视觉输入。其可以为用户提供更好的搜索，更完整的答案，更互动的聊天和更有创意的内容。</p>
         <div className="button-group">
           <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
