@@ -11,7 +11,7 @@ function App() {
       <div className="project">
         <h2>ChatGPT</h2>
         <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。它基于GPT-3.5语言模型，可以以对话的形式与用户交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题，遵守道德和安全的原则。【测试密码：3sX8rT6yU1vB7n】。</p>
-<div className="button-group">
+        <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <div className="dropdown">
             <button onClick={() => setShowTutorialOptions1(!showTutorialOptions1)} className="button dropdown-button">
@@ -40,6 +40,14 @@ function App() {
                 <a href="/gifs/bing_pc.gif" className="button">电脑教程</a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="project">
+        <h2>DALL·E</h2>
+        <p>DALL·E是一个人工智能系统，由OpenAI开发和发布,它基于一个12亿参数的GPT-3变换器模型。可以根据自然语言的描述生成逼真的图像和艺术作品。DALL·E可以将不相关的概念、属性和风格结合在一起，创造出富有想象力的图像。【测试密码：7aR2xP4qC9wN3j】。</p>
+        <div className="button-group">
+          <a href="https://dalle.cyrus-reed.com" className="button">进入站点</a>
+          <a href="/pngs/DALL·E.png" className="button">查看教程</a>
         </div>
       </div>
     </div>
