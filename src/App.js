@@ -26,7 +26,7 @@ function App() {
         <p>DALL·E是一个人工智能系统，由OpenAI开发和发布,它基于一个12亿参数的GPT-3变换器模型。可以根据自然语言的描述生成逼真的图像和艺术作品。DALL·E可以将不相关的概念、属性和风格结合在一起，创造出富有想象力的图像。</p>
         <div className="button-group">
           <a href="https://dalle.cyrus-reed.com" className="button">进入站点</a>
-          <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/go-proxy-bing.txt" className="button">查看教程</a>
+          <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/chatgpt-vercel.txt" className="button">查看教程</a>
         </div>
       </div>
     </div>
