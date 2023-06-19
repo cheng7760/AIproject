@@ -1,5 +1,5 @@
 .App {
- font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
   background-color: #f4f4f4;
@@ -68,4 +68,10 @@ h2 {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+}
+
+.small-text {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
 }
