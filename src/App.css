@@ -53,18 +53,18 @@ h2 {
 }
 
 .dropdown {
-    position :relative
-    display :inline-block
+    position :relative; /* add a semicolon */
+    display :inline-block; /* add a semicolon */
 }
 
 .dropdown-content {
-    display :none
-    position :absolute
-    background-color :#007 BFF
-    min-width :160 px
-    box-shadow :0 px8 px16 px0 px rgba(0,0,0,0.2)
-    z-index :1
-    flex-direction :column /* change the direction of the dropdown content */
+    display :none; /* add a semicolon */
+    position :absolute; /* add a semicolon */
+    background-color :#007 BFF; /* add a semicolon */
+    min-width :160 px; /* add a semicolon */
+    box-shadow :0 px8 px16 px0 px rgba(0,0,0,0.2); /* add a semicolon */
+    z-index :1; /* add a semicolon */
+    flex-direction :column; /* change the direction of the dropdown content and add a semicolon */
 }
 
 .dropdown-content.show {
