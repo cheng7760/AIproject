@@ -68,7 +68,7 @@ h2 {
 }
 
 .dropdown-content.show {
-    display :block
+    display:block;
 }
 
 .dropdown-content .button {
