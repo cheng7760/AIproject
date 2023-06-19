@@ -27,8 +27,8 @@ h2 {
 }
 
 .project-icon {
-  width: 50px;
-  height: 50px;
+  width: 25px; /* change the width of the icon */
+  height: 25px; /* change the height of the icon */
   margin-right: 10px;
 }
 
@@ -49,29 +49,30 @@ h2 {
 }
 
 .button:hover {
-  background-color: #0056b3;
+    background-color :#0056 b3
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position :relative
+    display :inline-block
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #007BFF;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display :none
+    position :absolute
+    background-color :#007 BFF
+    min-width :160 px
+    box-shadow :0 px8 px16 px0 px rgba(0,0,0,0.2)
+    z-index :1
+    flex-direction :column /* change the direction of the dropdown content */
 }
 
 .dropdown-content.show {
-    display:block
+    display :block
 }
 
 .dropdown-content .button {
-    color:white
+    color :white
     padding :12 px16 px
     text-decoration :none
     display :block
