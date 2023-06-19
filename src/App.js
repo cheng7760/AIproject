@@ -10,7 +10,8 @@ function App() {
         <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。它基于GPT-3.5语言模型，可以以对话的形式与用户交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题，遵守道德和安全的原则。</p>
         <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
-          <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT%20Next%20Web.txt" className="button">查看教程</a>
+          <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-Next-Web.txt" className="button">查看教程</a>
+          <p className="small-text">（首次使用建议观看）</p>
         </div>
       </div>
       <div className="project">
@@ -19,6 +20,7 @@ function App() {
         <div className="button-group">
           <a href="https://bing.vcanbb.top" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/go-proxy-bing.txt" className="button">查看教程</a>
+          <p className="small-text">（首次使用建议观看）</p>
         </div>
       </div>
       <div className="project">
@@ -27,6 +29,7 @@ function App() {
         <div className="button-group">
           <a href="https://dalle.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/chatgpt-vercel.txt" className="button">查看教程</a>
+          <p className="small-text">（首次使用建议观看）</p>
         </div>
       </div>
     </div>
