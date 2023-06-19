@@ -9,7 +9,7 @@
 
 h1 {
   color: #333;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 
 .project {
@@ -49,7 +49,7 @@ h2 {
 }
 
 .button:hover {
-    background-color :#0056b3;
+    background-color :#0056b3; /* add a semicolon */
 }
 
 .dropdown {
@@ -58,28 +58,28 @@ h2 {
 }
 
 .dropdown-content {
-    display :none; /* add a semicolon */
-    position :absolute; /* add a semicolon */
+    display:none; /* add a semicolon */
+    position:absolute; /* add a semicolon */
     background-color :#007 BFF; /* add a semicolon */
-    min-width :160 px; /* add a semicolon */
-    box-shadow :0 px8 px16 px0 px rgba(0,0,0,0.2); /* add a semicolon */
-    z-index :1; /* add a semicolon */
+    min-width: 160px; /* add a semicolon */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* add a semicolon */
+    z-index:1; /* add a semicolon */
     flex-direction :column; /* change the direction of the dropdown content and add a semicolon */
 }
 
 .dropdown-content.show {
-    display:block;
+    display:block; /* add a semicolon */
 }
 
 .dropdown-content .button {
-    color :white
-    padding :12 px 16 px
-    text-decoration :none
-    display :block
+    color :white; /* add a semicolon */
+    padding: 12px 16px; /* add a semicolon */
+    text-decoration :none; /* add a semicolon */
+    display:block; /* add a semicolon */
 }
 
 .small-text {
-    font-size :12 px
-    color :#999
-    margin-top :10 px
+    font-size: 12px; /* add a semicolon */
+    color :#999; /* add a semicolon */
+    margin-top: 10px; /* add a semicolon */
 }
