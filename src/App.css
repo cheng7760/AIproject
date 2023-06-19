@@ -59,5 +59,6 @@ h2 {
   font-size: 12px;
   color: #999;
   margin-top: 10px;
-  text-align: center; /* This will center the small text */
+  text-align: right; /* This will align the small text with the "查看教程" button */
+  padding-right: 20px; /* Adjust this value to control the alignment */
 }
