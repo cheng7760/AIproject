@@ -63,3 +63,10 @@ h2 {
   width: 50%; /* Set the width of the small text to match the button */
   margin-left: 55%; /* Push the small text to the right side */
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .small-text {
+    margin-left: 50%; /* Adjust this value for mobile devices */
+  }
+}
