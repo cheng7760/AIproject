@@ -67,6 +67,6 @@ h2 {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .small-text {
-    margin-left: 62%; /* Adjust this value for mobile devices */
+    margin-left: 61.5%; /* Adjust this value for mobile devices */
   }
 }
