@@ -18,7 +18,7 @@ function App() {
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/go-proxy-bing.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
         <p>Bing AI是一个全新的人工智能搜索引擎，由微软开发和发布。它基于OpenAI的GPT-4语言模型，这是目前最强大的语言模型，可以理解和生成各种类型的文本，包括视觉输入。其可以为用户提供更好的搜索，更完整的答案，更互动的聊天和更有创意的内容。</p>
         <div className="button-group">
-          <a href="https://bing.vcanbb.top" className="button">进入站点</a>
+          <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/go-proxy-bing.txt" className="button">查看教程</a>
         </div>
         <p className="small-text">（首次使用建议观看）</p>
