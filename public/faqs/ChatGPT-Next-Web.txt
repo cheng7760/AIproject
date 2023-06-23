@@ -10,7 +10,7 @@
 
 3. 使用 AI 绘图功能
 
-ChatGPT-Midjourney 接入了业界最先进的AI绘图技术midjourney。你可以在对话框中以/mj为前缀输入你的绘画描述，例如：/mj a cat，然后耐心等待绘画生成，这个功能只支持英文提示词。
+ChatGPT-Midjourney 接入了业界最先进的AI绘图技术Midjourney。你可以在对话框中以/mj为前缀输入你的绘画描述，例如：/mj a cat，然后耐心等待绘画生成，这个功能只支持英文提示词。
 
 4. 使用图像处理
 
