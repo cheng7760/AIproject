@@ -64,6 +64,13 @@ h2 {
   margin-left: 55%; /* Push the small text to the right side */
 }
 
+.disclaimer {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .small-text {
