@@ -19,7 +19,7 @@ h1 {
 .quote-container {
   display: flex;
   justify-content: center; /* Center the quote and author horizontally */
-  margin: 30px 0 10px 0; /* Decrease the bottom margin */
+  margin: 40px 0 20px 0; /* Adjust the top and bottom margin */
 }
 
 .quote {
@@ -28,7 +28,9 @@ h1 {
 }
 
 .author {
-  margin-left: 10px; /* Add left margin to the author */
+  font-size: 12px;
+  color: #999;
+  margin-right: 10px; /* Add right margin to the author */
 }
 
 .project {
