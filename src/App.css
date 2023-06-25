@@ -12,6 +12,13 @@ h1 {
   padding: 20px 0px;
 }
 
+.quote {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
 .project {
   background-color: white;
   padding: 20px;
