@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <h1>Cyrus的科技小站</h1>
-      <div className="quote">
+      <div className="quote-container">
+       <div className="quote">
         <p><em>人工智能是人类最伟大的发明，也是最危险的挑战。</em></p>
-        <p className="author">——史蒂芬·霍金</p>
+        <p className="author">——斯蒂芬·霍金</p>
+       </div>
       </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Next-Web.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
