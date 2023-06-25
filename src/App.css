@@ -18,18 +18,16 @@ h1 {
 
 .quote-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Right-align the quote and author */
-  justify-content: center; /* Center the quote and author vertically */
-  width: fit-content; /* Let the container fit the content */
-  margin: 0 auto; /* Center the container horizontally */
+  justify-content: center; /* Center the quote and author horizontally */
+  margin: 20px 0; /* Add margin to the top and bottom */
 }
 
 .quote {
-  font-size: 16px;
-  color: #666;
-  font-style: italic;
-  margin-bottom: 0;
+  text-align: right; /* Right-align the quote and author */
+}
+
+.quote p {
+  margin-bottom: 0; /* Remove the bottom margin of the paragraphs */
 }
 
 .author {
