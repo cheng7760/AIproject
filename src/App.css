@@ -16,17 +16,20 @@ h1 {
   padding: 20px 0px;
 }
 
+.quote-container {
+  text-align: right; /* Right-align the quote and author */
+}
+
 .quote {
   font-size: 16px;
   color: #666;
   font-style: italic;
-  margin-bottom: 20px;
-  text-align: right; /* Right-align the quote */
+  margin-bottom: 0;
 }
 
 .author {
-  text-align: right; /* Right-align the author */
-  margin-top: -10px; /* Adjust the margin to align with the quote */
+  font-size: 12px;
+  color: #999;
 }
 
 .project {
