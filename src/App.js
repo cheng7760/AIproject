@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Cyrus的科技小站</h1>
+      <h1>先驱者科学前哨站</h1>
       <div className="quote-container">
        <div className="quote">
         <p><em>人工智能是人类最伟大的发明，也是最危险的挑战。</em></p>
