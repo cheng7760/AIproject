@@ -21,11 +21,12 @@ h1 {
   color: #666;
   font-style: italic;
   margin-bottom: 20px;
-  text-align: center; /* Center-align the quote */
+  text-align: right; /* Right-align the quote */
 }
 
 .author {
-  text-align: center; /* Center-align the author */
+  text-align: right; /* Right-align the author */
+  margin-top: -10px; /* Adjust the margin to align with the quote */
 }
 
 .project {
