@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <h1>Cyrus的科技小站</h1>
-      <p className="quote"><em>人工智能是人类最伟大的发明，也是最危险的挑战。 ——史蒂芬·霍金</em></p>
+      <div className="quote">
+        <p><em>人工智能是人类最伟大的发明，也是最危险的挑战。</em></p>
+        <p className="author">——史蒂芬·霍金</p>
+      </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Next-Web.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
         <p>ChatGPT是一个由OpenAI开发和发布的人工智能聊天机器人，基于GPT-3.5语言模型。现已接入业界最先进的AI绘图技术Midjourney。用户用/mj为前缀输入绘画提示词，例如：/mj a cat，即可生成绘画，速度较慢，生成中请勿重复提交或刷新页面，目前只支持英文提示词。</p>
