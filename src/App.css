@@ -19,20 +19,16 @@ h1 {
 .quote-container {
   display: flex;
   justify-content: center; /* Center the quote and author horizontally */
-  margin: 20px 0; /* Add margin to the top and bottom */
+  margin: 30px 0 10px 0; /* Decrease the bottom margin */
 }
 
 .quote {
   text-align: right; /* Right-align the quote and author */
-}
-
-.quote p {
-  margin-bottom: 0; /* Remove the bottom margin of the paragraphs */
+  color: #999; /* Change the color of the quote to match the author */
 }
 
 .author {
-  font-size: 12px;
-  color: #999;
+  margin-left: 10px; /* Add left margin to the author */
 }
 
 .project {
