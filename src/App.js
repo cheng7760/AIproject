@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
-        <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。它基于GPT-3.5语言模型，可以以对话的形式与用户交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题，遵守道德和安全的原则。</p>
+        <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。它基于GPT-3.5/GPT-4语言模型，可以以对话的形式与用户交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题，遵守道德和安全的原则。</p>
         <div className="button-group">
           <a href="https://openai.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
