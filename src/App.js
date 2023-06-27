@@ -25,9 +25,10 @@ function App() {
         <p>Bing AI是一个全新的人工智能搜索引擎，由微软开发和发布。它基于OpenAI的GPT-4语言模型，这是目前最强大的语言模型，可以理解和生成各种类型的文本，包括视觉输入。其可以为用户提供更好的搜索，更完整的答案，更互动的聊天和更有创意的内容。</p>
         <div className="button-group">
           <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
-          <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程        </div>
+          <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
+        </div>
         <p className="small-text">（首次使用建议观看）</p>
-      </div>
+           </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Midjourney.png" alt="ChatGPT-Midjourney Icon" className="project-icon" /> ChatGPT-Midjourney</h2>
         <p>Midjourney是一个由位于旧金山的独立研究实验开发和发布的生成性人工智能程序和服务。它能够根据自然语言描述，生成图像。Midjourney可以根据用户的需求，生成个性化和独特的艺术作品，分享其人工智能的创新成果，引导用户探索更多的艺术领域。</p>
