@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
-        <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的前端与后端都经过多重优化，使得聊天速度更快。本站点需要 OpenAI 账号或 Access Token 进行登录，Plus账号同步支持 GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
+        <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的后端经过优化，使得聊天速度更快。本站点需要 OpenAI 账号或 Access Token 进行登录，Plus账号同步支持 GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
         <div className="button-group">
           <a href="https://openai.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
@@ -31,7 +31,7 @@ function App() {
            </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-        <p>本站点基于 OPENAI API KEY 开发，内置了 Token 让您无需登录就可以开始聊天，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便地创建、分享和调试你的个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
+        <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便地创建、分享和调试你的个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
         <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
