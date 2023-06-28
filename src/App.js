@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
-        <p>ChatGPT是一个人工智能聊天机器人，由OpenAI开发和发布。用户可切换多个语言模型（GPT-3.5/4、Web Browsing、Plugins），用对话的形式与之交互。ChatGPT可以根据用户的意图，提供个性化和专业的回答，分享自己的知识，引导用户探索更多的话题【需OpenAI账号（自备）或Access Token（联系管理员获取）进行访问】。</p>
+        <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的后端经过优化，使得聊天速度更快。本站点需要OpenAI账号或Access Token进行登录，Plus账号同步支持GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
         <div className="button-group">
           <a href="https://openai.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
@@ -22,7 +22,7 @@ function App() {
       </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Bing AI.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
-        <p>Bing AI是一个全新的人工智能搜索引擎，由微软开发和发布。它基于OpenAI的GPT-4语言模型，这是目前最强大的语言模型，可以理解和生成各种类型的文本，包括视觉输入。其可以为用户提供更好的搜索，更完整的答案，更互动的聊天和更有创意的内容【无需账号或密钥可直接访问】。</p>
+        <p>本站点基于微软 New Bing 原生网站并进行了定制。这个平台提供了一致的用户界面体验，让您无需登录就可以开始聊天。它支持 ChatGPT 提示词，让您的聊天体验更加流畅。同时，您还可以使用画图等高级功能，为您的聊天添加更多的趣味和创造力。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的体验更加丰富和有趣。</p>
         <div className="button-group">
           <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
@@ -31,7 +31,7 @@ function App() {
            </div>
       <div className="project">
         <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Midjourney.png" alt="ChatGPT-Midjourney Icon" className="project-icon" /> ChatGPT-Midjourney</h2>
-        <p>Midjourney是一个由位于旧金山的独立研究实验开发和发布的生成性人工智能程序和服务。它能够根据自然语言描述，生成图像。Midjourney可以根据用户的需求，生成个性化和独特的艺术作品，分享其人工智能的创新成果，引导用户探索更多的艺术领域【无需账号或密钥可直接访问】。</p>
+        <p>本站点基于 ChatGPT-Next-Web 开发，这个平台不仅支持原有的功能，还整合了 Midjourney 的各项功能，包括“想象”、“放大”、“变幻”、“识图”和“混图”等。此外，它还提供了实时的绘图进度显示和百分比，让您可以更直观地了解绘图的进度。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您体验到创作的乐趣。</p>
         <div className="button-group">
           <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
           <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-Midjourney.txt" className="button">查看教程</a>
