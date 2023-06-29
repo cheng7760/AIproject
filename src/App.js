@@ -27,7 +27,7 @@ function App() {
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Bing AI.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
           <p>本站点基于微软 New Bing 原生网站并进行了定制，提供了一致的用户界面体验，内置了API 让您无需登录就可以开始聊天。它支持 ChatGPT 提示词，让您的聊天体验更加流畅。同时，您还可以使用画图等高级功能，为您的聊天添加更多的趣味和创造力。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的体验更加丰富和有趣。</p>
-          <div className="button-group">
+           <div className="button-group">
             <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
           </div>
