@@ -38,7 +38,8 @@ h1 {
   padding: 20px;
   margin-bottom: 40px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px```css
+10px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -97,4 +98,29 @@ h2 {
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
+}
+
+.category-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-line::before,
+.category-line::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px dashed #999;
+}
+
+.category-line::before {
+  margin-right: .5em;
+}
+
+.category-line::after {
+  margin-left: .5em;
+}
+
+.category-line span {
+  white-space: nowrap;
 }
