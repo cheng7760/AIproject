@@ -49,7 +49,7 @@ function App() {
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Midjourney.png" alt="ChatGPT-Midjourney Icon" className="project-icon" /> ChatGPT-Midjourney</h2>
-          <p>本站点基于 ChatGPT-Next-Web 开发，内置了 KEY，让您无需登录就可以开始聊天。特点包括接入业界最先进的AI绘图技术Midjourney。您可以/mj为前缀输入绘画提示词，例如：/mj a cat，即可生成绘画，为您的聊天体验增添了更多可能性。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加有创意。</p>
+          <p>本站点基于 ChatGPT Next Web 开发，内置了 KEY，让您无需登录就可以开始聊天。特点包括接入业界最先进的AI绘图技术Midjourney。您可以/mj为前缀输入绘画提示词，例如：/mj a cat，即可生成绘画，为您的聊天体验增添了更多可能性。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加有创意。</p>
           <div className="button-group">
             <a href="https://midjourney.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-Midjourney.txt" className="button">查看教程</a>
