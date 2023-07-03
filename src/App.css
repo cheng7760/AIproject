@@ -80,7 +80,7 @@ h2 {
   text-align: right;
   margin-top: 10px;
   width: 50%;
-  margin-left: 31%;
+  margin-left: 30.7%;
 }
 
 .disclaimer {
@@ -93,10 +93,10 @@ h2 {
 /* Media query formobile devices */
 @media (max-width: 768px) {
   .small-text {
-    margin-left: 61.68%; /* Adjust this value for mobile devices */
+    margin-left: 61.7%; /* Adjust this value for mobile devices */
   }
   .small-text-chatgpt {
-    margin-left: 55%; /* Adjust this value for mobile devices */
+    margin-left: 53%; /* Adjust this value for mobile devices */
   }
 }
 .category-line {
