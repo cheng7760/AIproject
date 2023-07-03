@@ -10,29 +10,24 @@
   align-items: center;
   justify-content: center;
 }
-
 h1 {
   color: #333;
   padding: 20px 0px;
 }
-
 .quote-container {
   display: flex;
   justify-content: center; /* Center the quote and author horizontally */
   margin: -20px 0 20px 0; /* Adjust the top and bottom margin */
 }
-
 .quote {
   text-align: right; /* Right-align the quote and author */
   color: #999; /* Change the color of the quote to match the author */
 }
-
 .author {
   font-size: 12px;
   color: #999;
   margin-right: 10px; /* Add right margin to the author */
 }
-
 .project {
   background-color: white;
   padding: 20px;
@@ -40,20 +35,17 @@ h1 {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
-
 h2 {
   color: #007BFF;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .project-icon {
   width: 25px;
   height: 25px;
   margin-right: 10px;
 }
-
 .button-group {
   display: flex;
   justify-content: space-between;
@@ -61,7 +53,6 @@ h2 {
   max-width: 300px; /* Adjust this value to control the space between the buttons */
   margin: 0 auto; /* This will center the button group */
 }
-
 .button {
   display: inline-block;
   background-color: #007BFF;
@@ -71,61 +62,49 @@ h2 {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
-
 .chatgpt-buttons {
   justify-content: space-between;
   max-width: 450px;
 }
-
 .small-text {
   font-size: 12px;
   color: #999;
   text-align: left; /* Align the small text to the left */
   margin-top: 10px; /* Adjust this value to control the vertical position of the small text */
   width: 50%; /* Set the width of the small text to match the button */
-}
-
-.chatgpt-small-text {
-    margin-left:40%; /* Adjust this value to control how far right you want to move it */
+  margin-left: 55%; /* Push the small text to the right side */
 }
 
 .disclaimer {
-    font-size:12px;
-    color:#999;
-    text-align:center;
-    margin-top:20px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
 }
 
-/* Media query for mobile devices */
-@media (max-width:768px) {
-    .small-text {
-        margin-left:auto; /* Adjust this value for mobile devices */
-        width:auto; /* Set width to auto for mobile devices */
-        text-align:center; /* Center align small text on mobile devices */
-    }
+/* Media query formobile devices */
+@media (max-width: 768px) {
+  .small-text {
+    margin-left: 61.68%; /* Adjust this value for mobile devices */
+  }
 }
-
 .category-line {
-    display:flex;
-    align-items:center;
-    margin-bottom:20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
-
 .category-line::before,
 .category-line::after {
-    content:'';
-    flex:1;
-    border-bottom:1px dashed #999;
+  content: '';
+  flex: 1;
+  border-bottom: 1px dashed #999;
 }
-
 .category-line::before {
-    margin-right:.5em;
+  margin-right: .5em;
 }
-
 .category-line::after {
-    margin-left:.5em;
+  margin-left: .5em;
 }
-
 .category-line span {
-    white-space:nowrap;
+  white-space: nowrap;
 }
