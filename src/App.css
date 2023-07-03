@@ -86,6 +86,10 @@ h2 {
   margin-left: 55%; /* Push the small text to the right side */
 }
 
+.chatgpt-small-text {
+  margin-left: 40%;
+}
+
 .disclaimer {
   font-size: 12px;
   color: #999;
@@ -93,7 +97,7 @@ h2 {
   margin-top: 20px;
 }
 
-/* Media query formobile devices */
+/* Media query for mobile devices */
 @media (max-width: 768px) {
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
