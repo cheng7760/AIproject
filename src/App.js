@@ -19,10 +19,10 @@ function App() {
           <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的后端经过优化，使得聊天速度更快。本站点需要 OpenAI 账号或 Access Token 进行登录（点击下方可按钮获取密钥），Plus账号支持 GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
           <div className="button-group chatgpt-buttons">
             <a href="https://openai.cyrus-reed.com" className="button">进入站点</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/Pandora Tokens.txt" className="button">获取密钥</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
           </div>
-          <p className="small-text">（首次使用建议观看）</p>
+          <p className="small-text-chatgpt">（首次使用建议观看）</p>
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Bing AI.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
@@ -62,3 +62,4 @@ function App() {
   );
 }
 export default App;
+
