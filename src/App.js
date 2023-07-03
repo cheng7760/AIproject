@@ -23,7 +23,7 @@ function App() {
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/Pandora Tokens.txt" className="button">获取密钥</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
           </div>
-          <p className="small-text">（首次使用建议观看）</p>
+          <p className="small-text chatgpt-small-text">（首次使用建议观看）</p>
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Bing AI.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
