@@ -74,6 +74,14 @@ h2 {
   width: 50%; /* Set the width of the small text to match the button */
   margin-left: 55%; /* Push the small text to the right side */
 }
+.small-text-chatgpt {
+  font-size: 12px;
+  color: #999;
+  text-align: right;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 70%;
+}
 
 .disclaimer {
   font-size: 12px;
@@ -84,7 +92,8 @@ h2 {
 
 /* Media query formobile devices */
 @media (max-width: 768px) {
-  .small-text {
+  .small-text,
+  .small-text-chatgpt {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
 }
