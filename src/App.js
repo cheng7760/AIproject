@@ -17,10 +17,11 @@ function App() {
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
-          <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的后端经过优化，使得聊天速度更快。本站点需要 OpenAI 账号或 Access Token 进行登录，Plus账号同步支持 GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
+          <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的后端经过优化，使得聊天速度更快。本站点需要 OpenAI 账号或 Access Token 进行登录（点击下方可按钮获取密钥），Plus账号支持 GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
           <div className="button-group">
             <a href="https://openai.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/Pandora Tokens.txt" className="button">获取密钥</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
@@ -53,15 +54,6 @@ function App() {
           <div className="button-group">
             <a href="https://midjourney.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-Midjourney.txt" className="button">查看教程</a>
-          </div>
-          <p className="small-text">（首次使用建议观看）</p>
-        </div>
-        <div className="project">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/BibiGPT.png" alt="BibiGPT Icon" className="project-icon" /> BibiGPT</h2>
-          <p>此站点基于 OPENAI API 开发，提供一键式AI音视频内容总结和对话功能。此站点由JimmyLv开发部署，本站仅搬运，需登陆注册账户后获取时长或付费使用。它能够轻松总结YouTube、哔哩哔哩、Twitter、TikTok等平台的音视频内容，让您的学习更加高效。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您获取信息更加高效。</p>
-          <div className="button-group">
-            <a href="https://b.jimmylv.cn" className="button">进入站点</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/BibiGPT.txt" className="button">查看教程</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
