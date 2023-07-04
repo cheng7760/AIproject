@@ -129,6 +129,9 @@ h2 {
 }
 /* Media query formobile devices */
 @media (max-width: 768px) {
+  .ReactModal__Content {
+    width: 90%;  /* 将宽度调整为屏幕宽度的90% */
+  }
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
