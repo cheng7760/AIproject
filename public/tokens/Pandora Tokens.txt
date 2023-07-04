@@ -1,3 +1,7 @@
-fk-zxCNKBlN43ol28b-IaVSoknefze6E_fr0gwAW_OVI4w
-fk-AtgLkErUojnEuYJLsva2JqgpBPNPD2DsBnn_ByfkJ-s
-fk-aEimRxCjEBvacibdpSFZ-a9W4j2yhcmmlTLMMmgtVaI
+密钥一：fk-zxCNKBlN43ol28b-IaVSoknefze6E_fr0gwAW_OVI4w
+
+密钥二：fk-AtgLkErUojnEuYJLsva2JqgpBPNPD2DsBnn_ByfkJ-s
+
+密钥三：fk-aEimRxCjEBvacibdpSFZ-a9W4j2yhcmmlTLMMmgtVaI
+
+本处获取的密钥为公用密钥，请在使用后在左侧边栏中删除自己的聊天历史，保护自己的隐私安全，如需个人密钥可联系管理员获取。
