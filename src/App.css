@@ -129,7 +129,6 @@ h2 {
 }
 /* Media query formobile devices */
 @media (max-width: 768px) {
-  @media (max-width: 768px) {
   .ReactModal__Content {
     width: 72%;  /* 将宽度调整为原来的80% */
     height: 220px; /* 将高度调整为原来的80% */
@@ -150,7 +149,7 @@ h2 {
   .small-text-chatgpt {
     margin-left: 52.52%; /* Adjust this value for mobile devices */
   }
-}
+} /* 这是媒体查询的闭合大括号 */
 .category-line {
   display: flex;
   align-items: center;
