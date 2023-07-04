@@ -129,8 +129,20 @@ h2 {
 }
 /* Media query formobile devices */
 @media (max-width: 768px) {
+  @media (max-width: 768px) {
   .ReactModal__Content {
-    width: 90%;  /* 将宽度调整为屏幕宽度的90% */
+    width: 72%;  /* 将宽度调整为原来的80% */
+    height: 220px; /* 将高度调整为原来的80% */
+    font-size: 80%; /* 将字体大小调整为原来的80% */
+  }
+  .ReactModal__Content h2 {
+    font-size: 80%; /* 将标题字体大小调整为原来的80% */
+  }
+  .ReactModal__Content p {
+    font-size: 80%; /* 将段落字体大小调整为原来的80% */
+  }
+  .token-input {
+    font-size: 80%; /* 将输入框字体大小调整为原来的80% */
   }
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
