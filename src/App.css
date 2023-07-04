@@ -61,10 +61,49 @@ h2 {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-size: 16px;
 }
 .chatgpt-buttons {
   justify-content: space-between;
   max-width: 450px;
+}
+.ReactModal__Content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  width: 550px;  /* 将宽度和高度各增加10% */
+  height: 275px; 
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border: 1px solid black; /* 添加了边框 */
+  overflow: auto;
+  WebkitOverflowScrolling: touch;
+  borderRadius: 4px;
+  outline: none;
+  boxShadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.close-modal-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.token-input {
+  font-size: 16px; /* 增大了字体大小 */
+  width: 100%; /* 输入框的宽度为100% */
+  border: 1px solid #999; /* 添加边框 */
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+.ReactModal__Content p {
+  margin-top: 40px;  /* 添加这一行 */
 }
 .small-text {
   font-size: 12px;
@@ -82,14 +121,12 @@ h2 {
   width: 50%;
   margin-left: 30.8%;
 }
-
 .disclaimer {
   font-size: 12px;
   color: #999;
   text-align: center;
   margin-top: 20px;
 }
-
 /* Media query formobile devices */
 @media (max-width: 768px) {
   .small-text {
