@@ -139,6 +139,9 @@ h2 {
   .token-input {
     margin-top: 25px;
 }
+  .close-modal-button {
+  right: 25px;
+}
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
