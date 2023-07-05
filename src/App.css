@@ -136,6 +136,9 @@ h2 {
   .ReactModal__Content p {
     margin-top: 15px; 
   }
+  .ReactModal__Content h2 {
+  margin-top: -10px;
+}
   .close-modal-button {
     top: 10px;
     right: 5px; /* 将右边距调整为原来的一半 */
