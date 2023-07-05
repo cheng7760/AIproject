@@ -132,24 +132,14 @@ h2 {
   .ReactModal__Content {
     width: 72%;  /* 将宽度调整为原来的80% */
     height: 220px; /* 将高度调整为原来的80% */
-    font-size: 90%; 
-  }
-  .ReactModal__Content h2 {
-    font-size: 90%; 
-  }
-  .ReactModal__Content p {
-    font-size: 90%; 
-  }
-  .token-input {
-    font-size: 90%; 
   }
   .small-text {
-    margin-left: 61.68%; 
+    margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
   .small-text-chatgpt {
-    margin-left: 52.52%; 
+    margin-left: 52.52%; /* Adjust this value for mobile devices */
   }
-} /* 这是媒体查询的闭合大括号 */
+}
 .category-line {
   display: flex;
   align-items: center;
