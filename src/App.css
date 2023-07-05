@@ -133,6 +133,12 @@ h2 {
     width: 72%;  /* 将宽度调整为原来的80% */
     height: 220px; /* 将高度调整为原来的80% */
   }
+  .ReactModal__Content p {
+    margin-top: 20px; /* 将段落字体大小调整为原来的80% */
+  }
+  .token-input {
+    margin-top: 25px;
+}
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
