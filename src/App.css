@@ -134,17 +134,17 @@ h2 {
     height: 220px; /* 将高度调整为原来的80% */
   }
   .ReactModal__Content p {
-    margin-top: 15px; 
+    margin-top: 12px; 
   }
   .ReactModal__Content h2 {
-  margin-top: -10px;
+  margin-top: -5px;
 }
   .close-modal-button {
     top: 10px;
     right: 5px; /* 将右边距调整为原来的一半 */
   }
   .token-input {
-    margin-top: 20px;
+    margin-top: 18px;
 }
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
