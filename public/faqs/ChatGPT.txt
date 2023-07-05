@@ -12,7 +12,7 @@
 
 2. 获取 Access Token
 
-在使用 ChatGPT 之前，你需要获取一个 Access Token，或者直接使用自己的OpenAI账号进行登陆。你可以使用获得的以fk开头的Share Token，每个此类Token均为会话隔离，只能看到自己的对话记录。Access Token 的有效期为 14 天，在此期间，可以不限次的使用其登陆。
+在使用 ChatGPT 之前，你需要获取一个 Access Token，或者直接使用自己的OpenAI账号进行登陆。你可以使用获得的以fk开头的Share Token，除共用Share Token外，每个此类Token均为会话隔离，只能看到自己的对话记录。Access Token 的有效期为 14 天，在此期间，期间可以不限次的使用其登陆。
 
 3. 开始使用
 
