@@ -137,7 +137,7 @@ h2 {
     margin-top: 20px; /* 将段落字体大小调整为原来的80% */
   }
   .close-modal-button {
-    top: 15px;
+    top: 10px;
     right: 10px; /* 将右边距调整为原来的一半 */
   }
   .token-input {
