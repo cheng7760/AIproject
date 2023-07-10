@@ -46,6 +46,7 @@ function App() {
       </div>
       <div className="category">
         <div className="category-line">
+          <span>原生类工具</span>
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
