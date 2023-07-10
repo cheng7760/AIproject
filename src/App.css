@@ -117,9 +117,11 @@ h2 {
 }
 .editor-recommend .recommend-reason {
   font-size: 18px; /* Adjust the font size */
-  color: #333; /* Set the text color */
+  color: #007BFF; /* Set the text color to blue */
   margin-top: 20px; /* Add some space above the text */
   text-align: center; /* Center the text */
+  background-color: transparent; /* No background color */
+  padding: 0; /* No padding */
 }
 .ReactModal__Content {
   position: relative;
