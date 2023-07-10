@@ -69,6 +69,8 @@ h2 {
   max-width: 450px;
 }
 .editor-recommend {
+  padding-top: 20px; /* Adjust this value as needed */
+  padding-bottom: 20px; /* Make sure this is the same as padding-top */
   background-color: #f0f8ff; /* Light blue background */
   padding: 30px; /* Increased padding */
   margin-bottom: 50px; /* Increased margin */
