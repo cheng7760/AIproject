@@ -120,7 +120,7 @@ h2 {
   color: #007BFF;
   text-align: left;
   margin-top: -20px;
-  margin-bottom: -30px; /* 调整此值以控制推荐理由与下边框的距离 */
+  margin-bottom: -10px; /* 调整此值以控制推荐理由与下边框的距离 */
 }
 .ReactModal__Content {
   position: relative;
