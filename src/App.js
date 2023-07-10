@@ -59,11 +59,11 @@ function App() {
           <span>第三方工具</span>
         </div>
         <div className="project">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Midjourney.png" alt="ChatGPT-Midjourney Icon" className="project-icon" /> ChatGPT-Midjourney</h2>
-          <p>本站点基于 ChatGPT Next Web 开发，内置了 KEY，让您无需登录就可以开始聊天。特点包括接入业界最先进的AI绘图技术Midjourney。您可以/mj为前缀输入绘画提示词，例如：/mj a cat，即可生成绘画，为您的聊天体验增添了更多可能性。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加有创意。</p>
+          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
+          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便地创建、分享和调试你的个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
           <div className="button-group">
-            <a href="https://chatgpt-midjourney.cyrus-reed.com" className="button">进入站点</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-Midjourney.txt" className="button">查看教程</a>
+            <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
