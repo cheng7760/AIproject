@@ -69,19 +69,11 @@ h2 {
   max-width: 450px;
 }
 .editor-recommend {
-  padding-top: 20px; /* Adjust this value as needed */
-  padding-bottom: 20px; /* Make sure this is the same as padding-top */
   background-color: #f0f8ff; /* Light blue background */
-  margin: 30px 0; /* Adjust the top and bottom margin to match the project's margin */
+  padding: 30px; /* Increased padding */
+  margin-bottom: 50px; /* Increased margin */
   border-radius: 10px; /* Increased border radius */
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Increased shadow */
-}
-.editor-recommend .editor-project {
-  background-color: white;
-  padding: 20px;
-  margin: 30px 0; /* Adjust the top and bottom margin to match the editor-recommend's margin */
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 .editor-recommend .project {
   border: 1px solid #007BFF; /* Add border to the project */
@@ -122,15 +114,6 @@ h2 {
   transition: background-color 0.3s ease;
   cursor: pointer;
   font-size: 16px;
-}
-.editor-recommend .recommend-reason {
-  font-size: 1.5rem; /* 修改字体大小 */
-  font-weight: bold; /* 修改字体粗细 */
-  color: #007BFF; /* 修改字体颜色 */
-  margin-top: 20px; /* Add some space above the text */
-  text-align: center; /* Center the text */
-  background-color: transparent; /* No background color */
-  padding: 0; /* No padding */
 }
 .ReactModal__Content {
   position: relative;
