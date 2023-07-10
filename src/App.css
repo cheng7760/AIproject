@@ -115,6 +115,13 @@ h2 {
   cursor: pointer;
   font-size: 16px;
 }
+.recommendation {
+  font-size: 14px;
+  color: #007BFF;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: -30px; /* 调整此值以控制推荐理由与下边框的距离 */
+}
 .ReactModal__Content {
   position: relative;
   top: 50%;
