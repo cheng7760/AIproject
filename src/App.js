@@ -32,7 +32,7 @@ function App() {
       </div>
       <div className="category editor-recommend">
         <div className="category-line">
-          <span>🏅编辑推荐🏅</span>
+          <span>🏅 编辑推荐 🏅</span>
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
