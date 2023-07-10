@@ -30,7 +30,7 @@ function App() {
           <p className="author">——斯蒂芬·霍金</p>
         </div>
       </div>
-      <div className="category">
+      <div className="category editor-recommend">
         <div className="category-line">
           <span>编辑推荐</span>
         </div>
