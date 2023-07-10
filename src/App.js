@@ -1,26 +1,19 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './App.css';
-
 Modal.setAppElement('#root')
-
 function App() {
-
   const [isOpen, setIsOpen] = useState(false);
   const [token, setToken] = useState('');
-
   const tokens = ['fk-zxCNKBlN43ol28b-IaVSoknefze6E_fr0gwAW_OVI4w', 'fk-AtgLkErUojnEuYJLsva2JqgpBPNPD2DsBnn_ByfkJ-s', 'fk-aEimRxCjEBvacibdpSFZ-a9W4j2yhcmmlTLMMmgtVaI'];
-
   const handleOpenModal = () => {
     const randomToken = tokens[Math.floor(Math.random() * tokens.length)];
     setToken(randomToken);
     setIsOpen(true);
   }
-
   const handleCloseModal = () => {
     setIsOpen(false);
   }
-
   return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
@@ -31,20 +24,19 @@ function App() {
         </div>
       </div>
       <div className="category editor-recommend">
-  <div className="category-line">
-    <span>🏅 编辑推荐 🏅</span>
-  </div>
-  <div className="project editor-project">
-    <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-    <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，*现已支持在设置中选择 GPT-4 模型*，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
-    <div className="button-group">
-      <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
-      <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
-    </div>
-    <p className="small-text">（首次使用建议观看）</p>
-  </div>
-  <p className="recommend-reason">推荐理由：功能丰富，无需登录点击即用，已默认启用GPT-4模型，适合新手使用。</p>
-</div>
+        <div className="category-line">
+          <span>🏅 编辑推荐 🏅</span>
+        </div>
+        <div className="project">
+          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
+          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，*现已支持在设置中选择 GPT-4 模型*，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
+          <div className="button-group">
+            <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
+          </div>
+          <p className="small-text">（首次使用建议观看）</p>
+        </div>
+      </div>
       <div className="category">
         <div className="category-line">
           <span>原生类工具</span>
@@ -98,5 +90,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
