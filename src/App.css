@@ -118,7 +118,7 @@ h2 {
 .recommendation {
   font-size: 14px;
   color: #007BFF;
-  text-align: left;
+  text-align: center;
   margin-top: -20px;
   margin-bottom: -10px; /* 调整此值以控制推荐理由与下边框的距离 */
 }
