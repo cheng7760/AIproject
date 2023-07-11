@@ -208,6 +208,10 @@ h2 {
   .token-input {
     margin-top: 18px;
 }
+  .editor-recommend .project {
+    margin: 0 -30px;
+    padding: 20px 50px;
+  }
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
@@ -238,3 +242,4 @@ h2 {
 .category-line span {
   white-space: nowrap;
 }
+
