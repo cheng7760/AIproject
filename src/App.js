@@ -34,7 +34,7 @@ function App() {
       <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
       <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
     </div>
-    <p className="small-text">（首次使用建议观看）</p>
+    <p className="small-text2">（首次使用建议观看）</p>
   </div>
   <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已默认启用GPT-4模型，适合新手使用。</p>
 </div>
