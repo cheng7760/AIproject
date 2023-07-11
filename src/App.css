@@ -115,6 +115,9 @@ h2 {
   cursor: pointer;
   font-size: 16px;
 }
+.project-description-mobile {
+  display: none;
+}
 .recommendation {
   font-size: 14px;
   color: #007BFF;
@@ -208,6 +211,12 @@ h2 {
   .token-input {
     margin-top: 18px;
 }
+  .project-description {
+    display: none;
+  }
+  .project-description-mobile {
+    display: block;
+  }
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
