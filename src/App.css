@@ -212,6 +212,19 @@ h2 {
     margin: 0 -30px;
     padding: 20px 50px;
   }
+  .editor-recommend .project h2,
+  .editor-recommend .project p,
+  .editor-recommend .project .button-group,
+  .editor-recommend .project .small-text2 {
+    width: 100%; 
+  }
+  .editor-recommend .project .button-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .editor-recommend .project .button {
+    margin: 5px;
+  }
   .small-text {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
