@@ -167,6 +167,14 @@ h2 {
   width: 50%; /* Set the width of the small text to match the button */
   margin-left: 55.2%; /* Push the small text to the right side */
 }
+.small-text2 {
+  font-size: 12px;
+  color: #999;
+  text-align: left; /* Align the small text to the left */
+  margin-top: 10px; /* Adjust this value to control the vertical position of the small text */
+  width: 50%; /* Set the width of the small text to match the button */
+  margin-left: 55.5%; /* Push the small text to the right side */
+}
 .small-text-chatgpt {
   font-size: 12px;
   color: #999;
@@ -201,6 +209,9 @@ h2 {
     margin-top: 18px;
 }
   .small-text {
+    margin-left: 61.68%; /* Adjust this value for mobile devices */
+  }
+  .small-text2 {
     margin-left: 61.68%; /* Adjust this value for mobile devices */
   }
   .small-text-chatgpt {
