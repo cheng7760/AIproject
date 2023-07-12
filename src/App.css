@@ -16,6 +16,7 @@ h1 {
 }
 .quote-container {
   display: flex;
+  flex-direction: column;
   justify-content: center; /* Center the quote and author horizontally */
   margin: -20px 0 20px 0; /* Adjust the top and bottom margin */
 }
