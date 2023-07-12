@@ -140,7 +140,7 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 100%; /* reduce the width to move the items to the center */
-  margin: 5px auto; /* adjust the top and bottom margin */
+  margin: 0px auto; /* adjust the top and bottom margin */
 }
 .version-container span {
   margin-right: 20px;
