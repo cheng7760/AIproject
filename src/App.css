@@ -131,7 +131,7 @@ h2 {
   flex-direction: row; /* Change this from column to row */
   justify-content: center;
   align-items: center;
-  width: 60%; /* reduce the width to move the items to the center */
+  width: 100%; /* reduce the width to move the items to the center */
   margin: 10px auto; /* adjust the top and bottom margin */
 }
 .version-container span {
