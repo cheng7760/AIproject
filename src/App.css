@@ -125,6 +125,21 @@ h2 {
   margin-top: -20px;
   margin-bottom: -10px; /* 调整此值以控制推荐理由与下边框的距离 */
 }
+.version-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.version-link {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.version-link:hover {
+  color: #0056b3;
+}
 .ReactModal__Content {
   position: relative;
   top: 50%;
