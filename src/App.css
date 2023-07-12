@@ -15,11 +15,11 @@ h1 {
   padding: 20px 0px;
 }
 .intro-text {
-  font-size: 16px;  // 调整字体大小
-  color: #999;  // 调整字体颜色
-  font-style: normal;  // 设置字体样式为正常，不斜体
-  text-align: center;  // 文字居中对齐
-  margin-top: 10px;  // 设置上边距为10px
+  font-size: 16px;  /* 调整字体大小 */
+  color: #999;  /* 调整字体颜色 */
+  font-style: normal;  /* 设置字体样式为正常，不斜体 */
+  text-align: center;  /* 文字居中对齐 */
+  margin-top: 10px;  /* 设置上边距为10px */
 }
 .quote-container {
   display: flex;
