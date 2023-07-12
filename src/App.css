@@ -142,6 +142,7 @@ h2 {
   text-decoration: none;
   transition: color 0.3s ease;
   margin-left: 20px; /* add some space between the version and the link */
+  white-space: nowrap; /* prevent the link text from wrapping */
 }
 .version-link:hover {
   color: #0056b3;
