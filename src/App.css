@@ -19,8 +19,8 @@ h1 {
   color: #999;  /* 调整字体颜色 */
   font-style: normal;  /* 设置字体样式为正常，不斜体 */
   text-align: center;  /* 文字居中对齐 */
-  margin-top: -15px;  /* 设置上边距为10px */
-  margin-bottom: 10px;
+  margin-top: -30px;  /* 设置上边距为10px */
+  margin-bottom: -10px;
 }
 .quote-container {
   display: flex;
