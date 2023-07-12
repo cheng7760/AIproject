@@ -15,9 +15,13 @@ function App() {
     setIsOpen(false);
   }
   return (
-    <div className="App">
-      <h1>先驱者科学前沿站</h1>
-      <div className="quote-container">
+  <div className="App">
+    <h1>先驱者科学前沿站</h1>
+    <div className="version-container">
+      <p>站点版本：v1.0.0</p>
+      <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a>
+    </div>
+    <div className="quote-container">
         <div className="quote">
           <p><em>人工智能是人类最伟大的发明，也是最危险的挑战。</em></p>
           <p className="author">——斯蒂芬·霍金</p>
