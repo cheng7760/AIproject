@@ -127,15 +127,16 @@ h2 {
 }
 .version-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
+  width: 60%; /* reduce the width to move the items to the center */
+  margin: 20px auto; /* center the container and add some margin at the top and bottom */
 }
 .version-link {
   color: #007BFF;
   text-decoration: none;
   transition: color 0.3s ease;
+  margin-left: 20px; /* add some space between the version and the link */
 }
 .version-link:hover {
   color: #0056b3;
