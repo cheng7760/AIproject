@@ -128,10 +128,11 @@ h2 {
 }
 .version-container {
   display: flex;
+  flex-direction: row; /* Change this from column to row */
   justify-content: center;
   align-items: center;
   width: 60%; /* reduce the width to move the items to the center */
-  margin: 20px auto; /* center the container and add some margin at the top and bottom */
+  margin: 10px auto; /* adjust the top and bottom margin */
 }
 .version-link {
   color: #007BFF;
