@@ -17,6 +17,7 @@ function App() {
    return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
+     <p className="intro-text">本站供各位先驱者体验各类AI前沿技术</p>
       <div className="quote-container">
         <div className="quote">
           <p><em>人工智能是人类最伟大的发明，也是最危险的挑战。</em></p>
