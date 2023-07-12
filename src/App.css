@@ -134,6 +134,9 @@ h2 {
   width: 60%; /* reduce the width to move the items to the center */
   margin: 10px auto; /* adjust the top and bottom margin */
 }
+.version-container span {
+  margin-right: 20px;
+}
 .version-link {
   color: #007BFF;
   text-decoration: none;
