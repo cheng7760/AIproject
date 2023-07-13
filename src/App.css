@@ -48,7 +48,7 @@ h1 {
 .project-note {
   position: absolute; /* Add this line */
   left: 20px; /* Adjust this value to move the text to the left side */
-  bottom: 10px; /* Adjust this value to move the text to the bottom side */
+  bottom: 0px; /* Adjust this value to move the text to the bottom side */
   color: #999; /* Make the text color lighter */
   font-size: 12px; /* Decrease the font size */
 }
