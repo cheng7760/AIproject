@@ -232,6 +232,10 @@ h2 {
 }
 /* Media query formobile devices */
 @media (max-width: 768px) {
+  .project-note {
+  top: 10px
+  bottom: 0px; /* Adjust this value to move the text to the bottom side */
+}
   .ReactModal__Content {
     width: 72%;  /* 将宽度调整为原来的80% */
     height: 220px; /* 将高度调整为原来的80% */
