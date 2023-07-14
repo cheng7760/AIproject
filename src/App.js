@@ -91,6 +91,7 @@ function App() {
           </div>
           <p className="small-text">（首次使用建议观看）</p>
       </div>
+     </div>
       <p className="disclaimer">请注意：本站仅供学习交流，禁止产生任何敏感对话或图像等内容，否则将撤销使用权限，并自行承担任何后果。</p>
       <Modal
         isOpen={isOpen}
