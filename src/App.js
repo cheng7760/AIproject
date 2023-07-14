@@ -87,7 +87,7 @@ function App() {
           <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加机器人后就可以开始聊天，它使用 gpt-3.5-turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
           <div className="button-group">
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/wechat-gptbot tokens.txt" className="button">获取微信</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/wechat-gptbot.txt" className="button">查看教程</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
       </div>
