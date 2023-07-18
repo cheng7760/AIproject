@@ -75,7 +75,7 @@ function App() {
             <a href="https://midjourney.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Midjourney.txt" className="button">查看教程</a>
           </div>
-          <p className="small-text-chatgpt">（首次使用建议观看）</p>
+          <p className="small-text">（首次使用建议观看）</p>
         </div>
       </div>
       <div className="category">
