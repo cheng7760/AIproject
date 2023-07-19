@@ -14,6 +14,7 @@ function App() {
   const handleCloseModal = () => {
     setIsOpen(false);
   }
+  const [isBingAIMaintenance, setBingAIMaintenance] = useState(true);
    return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
@@ -63,7 +64,10 @@ function App() {
           <p>本站点基于微软 New Bing 原生网站并进行了定制，提供了一致的用户界面体验，内置了 API 让您无需登录就可以开始聊天。它支持 ChatGPT 提示词，让您的聊天体验更加流畅。同时，您还可以使用画图等高级功能，为您的聊天添加更多的趣味和创造力。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加丰富。</p>
           <p className="project-note">提醒：请您即时删除聊天历史，保护隐私安全</p>
           <div className="button-group">
-            <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
+            <a href="https://bing.cyrus-reed.com" className={`button ${isBingAIMaintenance ? 'disabled' : ''}`} 
+   onClick={e => isBingAIMaintenance && e.preventDefault()}> 
+   {isBingAIMaintenance ? '暂停维护' : '进入站点'} 
+</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
