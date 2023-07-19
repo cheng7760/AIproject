@@ -12,9 +12,9 @@ function App() {
     setIsOpen(true);
   }
   const handleCloseModal = () => {
-    setIsOpen(true);
+    setIsOpen(false);
   }
-  const [isBingAIMaintenance, setBingAIMaintenance] = useState(true);
+  const [isBingAIMaintenance, setBingAIMaintenance] = useState(false);
    return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
