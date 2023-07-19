@@ -12,7 +12,7 @@ function App() {
     setIsOpen(true);
   }
   const handleCloseModal = () => {
-    setIsOpen(false);
+    setIsOpen(true);
   }
   const [isBingAIMaintenance, setBingAIMaintenance] = useState(true);
    return (
