@@ -27,6 +27,11 @@ function App() {
         <div className="version-container">
   <p><span>站点版本：v1.0.0</span> <span><a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a></span></p>
 </div>
+     <div className="assistant-container">
+  <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐熙头像" className="assistant-icon"/>
+  <span>哨站AI助理 ⌈乐熙⌋ </span>
+  <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/wechat-gptbot tokens.txt" className="assistant-link">添加微信</a>
+</div>
       </div>
       <div className="category editor-recommend">
   <div className="category-line">
