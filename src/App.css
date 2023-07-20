@@ -12,8 +12,8 @@
 }
 .assistant-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin: 20px 0; /* 调整上下边距以便在两部分之间留出空间 */
 }
 .assistant-icon {
@@ -22,6 +22,7 @@
   margin-right: 10px;
 }
 .assistant-name {
+  margin-left: -20px;
   margin-right: 20px; /* 为 "哨站AI助理 ⌈乐熙⌋" 添加右边距，增加它和 "添加微信" 之间的距离 */
 }
 .assistant-link {
