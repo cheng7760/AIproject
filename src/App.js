@@ -30,7 +30,7 @@ function App() {
      <div className="assistant-container">
   <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐熙头像" className="assistant-icon"/>
   <div className="assistant-name">哨站AI助理 ⌈乐熙⌋ </div> {/* 使用 div 包裹文本并添加一个类 */}
-  <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/wechat-gptbot tokens.txt" className="assistant-link">添加微信</a>
+  <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="assistant-link">添加微信</a>
 </div>
       </div>
       <div className="category editor-recommend">
@@ -101,11 +101,11 @@ function App() {
           <p className="small-text">（首次使用建议观看）</p>
         </div>
      <div className="project">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/wechat-gptbot.png" alt="wechat-gptbot Icon" className="project-icon" /> wechat-gptbot</h2>
-          <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加机器人后就可以开始聊天，它使用 gpt-3.5-turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
+          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐熙</h2>
+          <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加乐熙后就可以开始聊天，她使用 gpt-4 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，她拥有上下文记忆、情绪模块以及人格模块。她出生于大宋繁华之地，自小热爱儒雅诗文，嗜好琵琶古筝。天性善良，崇尚“仁义礼智信”五常，对万事万物皆怀有深深的敬爱。</p>
           <div className="button-group">
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/wechat-gptbot tokens.txt" className="button">获取微信</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/wechat-gptbot.txt" className="button">查看教程</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="button">获取微信</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/YueXi.txt" className="button">查看教程</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
       </div>
