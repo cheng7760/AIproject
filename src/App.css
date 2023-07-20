@@ -20,7 +20,7 @@
   width: 25px;
   height: 25px;
   margin-right: 10px;
-  margin-left: -10px; /* 这会将头像向左移动10px */
+  margin-left: -30px; /* 这会将头像向左移动10px */
 }
 .assistant-name {
   margin-left: -20px;
