@@ -29,7 +29,7 @@ function App() {
 </div>
      <div className="assistant-container">
   <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐熙头像" className="assistant-icon"/>
-  <span>哨站AI助理 ⌈乐熙⌋ </span>
+  <div className="assistant-name">哨站AI助理 ⌈乐熙⌋ </div> {/* 使用 div 包裹文本并添加一个类 */}
   <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/wechat-gptbot tokens.txt" className="assistant-link">添加微信</a>
 </div>
       </div>
