@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './App.css';
 
@@ -6,46 +6,30 @@ Modal.setAppElement('#root')
 
 function App() {
 
-  const [showPopup, setShowPopup] = useState(true);
-
-  useEffect(() => {
-    const popupSeen = localStorage.getItem('popupSeen');
-    if (!popupSeen) {
-      setShowPopup(true);
-    }
-  }, [])
-
-  const closePopup = () => {
-    setShowPopup(false);
-    localStorage.setItem('popupSeen', true);
-  }
-
   const [isOpen, setIsOpen] = useState(false);
-
   const [token, setToken] = useState('');
-
+  
   const tokens = ['fk-I1-MvtrMRYbgWd2wW7ngwAbpclICiM3DD5__CYQpRlA', 'fk-nZguxVLvOOY_UpqW1KnctGx5z-7OP1spyTI7joKUKHo', 'fk-l_CYgFdgc1Y5xrP0YPUs1DvMhPEVY2yr99-LpUL3LTM'];
-
+  
   const handleOpenModal = () => {
     const randomToken = tokens[Math.floor(Math.random() * tokens.length)];
-    setToken(randomToken);
+    setToken(randomToken);  
     setIsOpen(true);
   }
-  
+
   const handleCloseModal = () => {
     setIsOpen(false);
   }
 
-  const [isBingAIMaintenance, setBingAIMaintenance] = useState(false);
-
   return (
     <div className="App">
-
+      
       <h1>先驱者科学前沿站</h1>
 
       <p className="intro-text">本站供各位先驱者体验各类AI前沿技术</p>
 
       <div className="quote-container">
+      
         <div className="quote">
           <p><em>人工智能是人类最伟大的发明,也是最危险的挑战。</em></p>
           <p className="author">——斯蒂芬·霍金</p> 
@@ -60,21 +44,14 @@ function App() {
         <div className="assistant-container">
         
           <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐熙头像" className="assistant-icon"/>
-        
+          
           <div className="assistant-name">哨站AI助理 ⌈乐熙⌋ </div>
-        
+          
           <a href="https://cyrus-reed.com/#yuexi" className="assistant-link">查看简介</a>
-        
+
         </div>
 
       </div>
-
-      {showPopup && 
-        <Popup 
-          text="欢迎来到先驱者科学前沿站,本站供各位先驱者体验各类AI前沿技术"
-          onClose={closePopup} 
-        />
-      }
 
       <div className="category editor-recommend">
 
@@ -85,7 +62,7 @@ function App() {
         </div>
 
         <div className="project">
-
+        
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
         
           <p className="project-description">本站点基于 OPENAI API 开发,内置了 KEY 让您无需登录就可以开始聊天,现已支持选择 GPT-4 模型,特点包括完整的 Markdown 支持,以及精心设计的 UI,响应式设计,支持深色模式,支持 PWA。此外,它还提供了预制角色功能,方便您进行个性化对话。无论您是在电脑端还是手机端,都可以享受到这个平台的便利,让您的聊天体验更加流畅。</p>
@@ -95,7 +72,7 @@ function App() {
           <div className="button-group">
           
             <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
-          
+            
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
           
           </div>
@@ -127,9 +104,9 @@ function App() {
           <div className="button-group chatgpt-buttons">
           
             <a href="https://chatgpt.cyrus-reed.com" className="button">进入站点</a>
-          
+            
             <button onClick={handleOpenModal} className="button">获取密钥</button>
-          
+            
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT.txt" className="button">查看教程</a>
           
           </div>
@@ -148,12 +125,8 @@ function App() {
         
           <div className="button-group">
           
-            <a href="https://bing.cyrus-reed.com" className={`button ${isBingAIMaintenance ? 'disabled' : ''}`} onClick={e => isBingAIMaintenance && e.preventDefault()}>
+            <a href="https://bing.cyrus-reed.com" className="button">进入站点</a>
             
-              {isBingAIMaintenance ? '暂停维护' : '进入站点'}
-            
-            </a>
-          
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
           
           </div>
@@ -171,7 +144,7 @@ function App() {
           <div className="button-group">
           
             <a href="https://midjourney.cyrus-reed.com" className="button">进入站点</a>
-          
+            
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Midjourney.txt" className="button">查看教程</a>
           
           </div>
@@ -199,7 +172,7 @@ function App() {
           <div className="button-group">
           
             <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
-          
+            
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
           
           </div>
@@ -217,7 +190,7 @@ function App() {
           <div className="button-group">
           
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="button">获取微信</a>
-          
+            
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/YueXi.txt" className="button">查看教程</a>
           
           </div>
@@ -231,47 +204,19 @@ function App() {
       <p className="disclaimer">请注意:本站仅供学习交流,禁止产生任何敏感对话或图像等内容,否则将撤销使用权限,并自行承担任何后果。</p>
 
       <Modal isOpen={isOpen} onRequestClose={handleCloseModal} contentLabel="Token Modal" className="ReactModal__Content" >
-
+      
         <h2>您的Access Token:</h2>
-      
+        
         <input type="text" value={token} readOnly className="token-input" />
-      
+        
         <p>注意:本处获取的密钥为公用密钥,请在使用后在左侧边栏中删除自己的聊天历史,保护自己的隐私安全,如需个人密钥可联系管理员获取。</p>
-      
+        
         <button onClick={handleCloseModal} className="close-modal-button">×</button>
       
       </Modal>
 
     </div>
   );
-}
-
-// Popup组件
-function Popup({text, onClose}) {
-
-  const [counter, setCounter] = useState(5);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCounter(counter => counter - 1);
-    }, 1000);
-    if (counter === 0) {
-      clearInterval(interval);
-      onClose();
-    }
-    return () => clearInterval(interval);
-  }, [counter, onClose]);
-
-  return (
-    <div className="popup">
-      <p>{text}</p>
-      {
-        counter > 0 
-        ? <button disabled>{counter}秒</button>
-        : <button onClick={onClose}>我知道了</button>  
-      }
-    </div>
-  )
 }
 
 export default App;
