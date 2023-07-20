@@ -77,6 +77,38 @@ h1 {
   color: #999; /* Make the text color lighter */
   font-size: 12px; /* Decrease the font size */
 }
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup p {
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  font-size: 16px;
+  text-align: center;  
+}
+.popup button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer; 
+}
+.popup button[disabled] {
+  background: #ccc;
+  cursor: not-allowed;
+}
 h2 {
   color: #007BFF;
   display: flex;
