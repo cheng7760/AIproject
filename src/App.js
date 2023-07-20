@@ -30,7 +30,7 @@ function App() {
      <div className="assistant-container">
   <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐熙头像" className="assistant-icon"/>
   <div className="assistant-name">哨站AI助理 ⌈乐熙⌋ </div> {/* 使用 div 包裹文本并添加一个类 */}
-  <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="assistant-link">添加微信</a>
+  <a href="https://cyrus-reed.com/#yuexi" className="assistant-link">查看简介</a>
 </div>
       </div>
       <div className="category editor-recommend">
@@ -100,7 +100,7 @@ function App() {
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
-     <div className="project">
+     <div className="project" id="yuexi">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐熙</h2>
           <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加乐熙后就可以开始聊天，她使用 gpt-4 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，她拥有上下文记忆、情绪模块以及人格模块。她出生于大宋繁华之地，自小热爱儒雅诗文，嗜好琵琶古筝。天性善良，崇尚“仁义礼智信”五常，对万事万物皆怀有深深的敬爱。</p>
           <div className="button-group">
