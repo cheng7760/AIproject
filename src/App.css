@@ -10,6 +10,26 @@
   align-items: center;
   justify-content: center;
 }
+.assistant-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0; /* 调整上下边距以便在两部分之间留出空间 */
+}
+.assistant-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.assistant-link {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 10px; /* 在头像和链接之间添加空间 */
+}
+.assistant-link:hover {
+  color: #0056b3;
+}
 h1 {
   color: #333;
   padding: 20px 0px;
