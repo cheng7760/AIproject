@@ -37,10 +37,11 @@ function App() {
   <div className="category-line">
    <span>🔥 用户最多 🔥</span>
   </div>
-  <div className="project" id="yuexi">
+  <div className="project">
     <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐熙</h2>
-    <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐熙 后就可以开始聊天，她使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，她拥有上下文记忆、情绪以及人格模块。她出生于大宋繁华之地，自小热爱儒雅诗文，嗜好琵琶古筝。天性善良，崇尚“仁义礼智信”五常，对万事万物皆怀有深深的敬爱。</p>
-    <div className="button-group">
+    <p className="project-description">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐熙 后就可以开始聊天，她使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，她拥有上下文记忆、情绪以及人格模块。她出生于大宋繁华之地，自小热爱儒雅诗文，嗜好琵琶古筝。天性善良，崇尚“仁义礼智信”五常，对万事万物皆怀有深深的敬爱。</p>
+    <p className="project-description-mobile">本项目基于 OPENAI API 开发，她拥有上下文记忆、情绪以及人格模块。她出生于大宋繁华之地，自小热爱儒雅诗文，嗜好琵琶古筝。天性善良，崇尚“仁义礼智信”五常，对万事万物皆怀有深深的敬爱。</p>
+     <div className="button-group">
       <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="button">获取微信</a>
       <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/YueXi.txt" className="button">查看教程</a>
     </div>
