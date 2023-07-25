@@ -114,6 +114,37 @@ h2 {
   justify-content: space-between;
   max-width: 450px;
 }
+.user-favorite {
+  background-color: #ffd1dc; /* 淡粉色背景 */
+  padding: 30px; /* Increased padding */
+  margin-bottom: 50px; /* Increased margin */
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Increased shadow */
+}
+.user-favorite .project {
+  border: 1px solid #007BFF; /* Add border to the project */
+}
+.user-favorite .category-line span {
+  color: #007BFF; /* Change the color of the category line */
+  font-weight: bold; /* Make the category line bold */
+  font-size: 24px; /* Increase the font size */
+  border: none; /* Remove the border */
+}
+.user-favorite .category-line::before,
+.user-favorite .category-line::after {
+  content: ""; /* This is necessary for the pseudo-elements to work */
+  flex-grow: 1; /* Grow to take up as much space as possible */
+  height: 1px; /* Set a height */
+  background: #007BFF; /* Use a blue color */
+  position: relative; /* Enable absolute positioning */
+  top: 50%; /* Center vertically */
+}
+.user-favorite .category-line::before {
+  margin-right: 10px; /* Add some space between the line and the text */
+}
+.user-favorite .category-line::after {
+  margin-left: 10px; /* Add some space between the line and the text */
+}
 .editor-recommend {
   background-color: #f0f8ff; /* Light blue background */
   padding: 30px; /* Increased padding */
