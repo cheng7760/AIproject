@@ -17,7 +17,7 @@ function App() {
     setIsOpen(false);
   }
   const [isBingAIMaintenance, setBingAIMaintenance] = useState(false);
-  const [showChatGPT, setShowChatGPT] = useState(true);
+  const [showChatGPT, setShowChatGPT] = useState(false);
 
   return (
     <div className="App">
