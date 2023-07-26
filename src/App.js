@@ -5,17 +5,11 @@ Modal.setAppElement('#root')
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [token, setToken] = useState('');
-  const tokens = ['fk-I1-MvtrMRYbgWd2wW7ngwAbpclICiM3DD5__CYQpRlA', 'fk-nZguxVLvOOY_UpqW1KnctGx5z-7OP1spyTI7joKUKHo', 'fk-l_CYgFdgc1Y5xrP0YPUs1DvMhPEVY2yr99-LpUL3LTM'];
-  const handleOpenModal = () => {
-    const randomToken = tokens[Math.floor(Math.random() * tokens.length)];
-    setToken(randomToken);
-    setIsOpen(true);
-  }
+	@@ -15,104 +14,94 @@ function App() {
   const handleCloseModal = () => {
     setIsOpen(false);
   }
   const [isBingAIMaintenance, setBingAIMaintenance] = useState(false);
-  const [isChatGPTHidden, setChatGPTHidden] = useState(false);
    return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
@@ -66,8 +60,6 @@ function App() {
   </div>
   <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已支持选择 GPT-4 模型，适合新手使用。</p>
 </div>
-     { !isChatGPTHidden && (
-      <React.Fragment>
       <div className="category">
         <div className="category-line">
           <span>原生类工具</span>
@@ -108,14 +100,7 @@ function App() {
       </div>
       <div className="category">
         <div className="category-line">
-          <span>第三方工具</span>
-        </div>
-        <div className="project">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持选择 GPT-4 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
-          <div className="button-group">
-            <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
+	@@ -127,16 +116,16 @@ function App() {
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
@@ -132,15 +117,7 @@ function App() {
       <p className="disclaimer">请注意：本站仅供学习交流，禁止产生任何敏感对话或图像等内容，否则将撤销使用权限，并自行承担任何后果。</p>
       <Modal
         isOpen={isOpen}
-        onRequestClose={handleCloseModal}
-        contentLabel="Token Modal"
-        className="ReactModal__Content"
-      >
-        <h2>您的Access Token：</h2>
-        <input type="text" value={token} readOnly className="token-input" />
-        <p>注意：本处获取的密钥为公用密钥，请在使用后在左侧边栏中删除自己的聊天历史，保护自己的隐私安全，如需个人密钥可联系管理员获取。</p>
-        <button onClick={handleCloseModal} className="close-modal-button">×</button>
-      </Modal>
+	@@ -152,5 +141,4 @@ function App() {
     </div>
   );
 }
