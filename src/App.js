@@ -67,6 +67,7 @@ function App() {
   <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已支持选择 GPT-4 模型，适合新手使用。</p>
 </div>
      { !isChatGPTHidden && (
+      <React.Fragment>
       <div className="category">
         <div className="category-line">
           <span>原生类工具</span>
