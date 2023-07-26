@@ -17,9 +17,11 @@ function App() {
     setIsOpen(false);
   }
   const [isBingAIMaintenance, setBingAIMaintenance] = useState(false);
-  const [showChatGPT, setShowChatGPT] = useState(false);
+  const [showChatGPT, setShowChatGPT] = useState(true);
 
-	@@ -25,113 +29,298 @@ function App() {
+  return (
+    <div className="App">
+      <h1>先驱者科学前沿站</h1>
       <p className="intro-text">本站供各位先驱者体验各类AI前沿技术</p>
       <div className="quote-container">
         <div className="quote">
@@ -71,7 +73,7 @@ function App() {
           <div className="category-line">
             <span>原生类工具</span>
           </div>
-       {showChatGPT && (
+      {showChatGPT && (
           <div className="project">
             <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT.png" alt="ChatGPT Icon" className="project-icon" /> ChatGPT</h2>
             <p>本站点基于 ChatGPT 原生网站进行了定制，提供了一致的用户界面体验。同时，它的后端经过优化，使得聊天速度更快。本站点需要 OpenAI 账号或 Access Token 进行登录（点击下方可按钮获取密钥）， Plus 账号支持 GPT-4、Web Browsing 和 Plugins 等模型。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加顺畅。</p>
@@ -83,7 +85,7 @@ function App() {
             </div>
             <p className="small-text-chatgpt">（首次使用建议观看）</p>
           </div>
-        )}
+      )}
           <div className="project" id="bing">
             <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Bing AI.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
             <p>本站点基于微软 New Bing 原生网站并进行了定制，提供了一致的用户界面体验，内置了 API 让您无需登录就可以开始聊天。它支持 ChatGPT 提示词，让您的聊天体验更加流畅。同时，您还可以使用画图等高级功能，为您的聊天添加更多的趣味和创造力。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加丰富。</p>
@@ -133,7 +135,8 @@ function App() {
       <Modal
         isOpen={isOpen}
         onRequestClose={handleCloseModal}
-	@@ -140,8 +329,12 @@ function App() {
+        contentLabel="Token Modal"
+        className="ReactModal__Content"
       >
         <h2>您的Access Token：</h2>
         <input type="text" value={token} readOnly className="token-input" />
@@ -142,3 +145,6 @@ function App() {
       </Modal>
     </div>
   );
+}
+
+export default App;
