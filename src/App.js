@@ -45,7 +45,7 @@ function App() {
       <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="button">获取微信</a>
       <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/YueXi.txt" className="button">查看教程</a>
     </div>
-    <p className="small-text">（首次使用建议观看）</p>
+    <p className="small-text2">（首次使用建议观看）</p>
   </div>
   <p className="recommendation">用户评价：科技与历史的结合，桥梁般连接古今世界，为 AI 增添属于人的温暖和诗意。</p>
 </div>
