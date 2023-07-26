@@ -15,6 +15,7 @@ function App() {
     setIsOpen(false);
   }
   const [isBingAIMaintenance, setBingAIMaintenance] = useState(false);
+  const [isChatGPTHidden, setChatGPTHidden] = useState(false);
    return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
@@ -65,6 +66,7 @@ function App() {
   </div>
   <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已支持选择 GPT-4 模型，适合新手使用。</p>
 </div>
+     { !isChatGPTHidden && (
       <div className="category">
         <div className="category-line">
           <span>原生类工具</span>
