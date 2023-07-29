@@ -42,7 +42,7 @@ function App() {
           <span>🔥 用户最多 🔥</span>
         </div>
         <div className="project">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐熙</h2>
+          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐·熙</h2>
           <p className="project-description">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐·熙 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
           <p className="project-description-mobile">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐·熙 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，拥有多轮会话上下文记忆，支持私聊和群聊的智能回复。</p>
           <div className="button-group">
