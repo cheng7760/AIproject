@@ -51,7 +51,7 @@ function App() {
           </div>
           <p className="small-text2">（首次使用建议观看）</p>
         </div>
-        <p className="recommendation">用户评价：科技与现实的结合，桥梁般连接智能生活，让 AI 的使用融入日常。</p>
+        <p className="recommendation">用户评价：科技与现实的结合，桥梁般连接智能生活，让 AI 的使用融入日常中。</p>
       </div>
       <div className="category editor-recommend">
         <div className="category-line">
