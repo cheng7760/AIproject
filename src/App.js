@@ -59,8 +59,8 @@ function App() {
         </div>
         <div className="project" id="chatgpt-next-web">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-          <p className="project-description">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持选择 GPT-4 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
-          <p className="project-description-mobile">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持选择 GPT-4 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。</p>
+          <p className="project-description">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持联网模式，选择 GPT-3.5-Turbo-0613 模型即可体验。特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计等。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
+          <p className="project-description-mobile">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持联网模式，选择 GPT-3.5-Turbo-0613 模型即可体验。特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计等。</p>
           <div className="button-group">
             <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
@@ -116,7 +116,7 @@ function App() {
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持选择 GPT-4 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
+          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持联网模式，选择 GPT-3.5-Turbo-0613 模型即可体验。特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计等。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
           <div className="button-group">
             <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
