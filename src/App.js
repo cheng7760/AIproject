@@ -71,8 +71,7 @@ function App() {
           <div className="category-line">
             <span>原生类工具</span>
           </div>
-                    </a>
-              <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
+                    <a href"https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
             </div>
             <p className="small-text">（首次使用建议观看）</p>
           </div>
@@ -82,8 +81,7 @@ function App() {
             <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Midjourney.png" alt="Midjourney Icon" className="project-icon" /> Midjourney</h2>
             <p>本站点基于 Midjourney 原生 Discord 进行了定制，提供了追求极致的创作体验，内置了 API 让您无需登录就可以开始创作。同时，它的后端经过优化，使得图像生成和处理更快。它支持高清图像生成、图像变化、重新生成图像、根据描述绘制、图像融合等功能。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的创作体验更加愉悦。</p>
             <div className="button-group">
-              <a href="https://midjourney.cyrus-reed.com" className="button">进入站点</a>
-              <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Midjourney.txt" className="button">查看教程</a>
+              <a href="https://midjourney.cyrus-reed.com" className="button">进入站点<a href"https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Midjourney.txt" className="button">查看教程</a>
             </div>
             <p className="small-text">（首次使用建议观看）</p>
           </div>
