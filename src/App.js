@@ -30,8 +30,8 @@ function App() {
           <p><span>站点版本：v1.0.3</span> <span><a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a></span></p>
         </div>
         <div className="assistant-container">
-          <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐熙头像" className="assistant-icon" />
-          <div className="assistant-name">哨站AI助理 ⌈乐熙⌋ </div>
+          <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐·熙头像" className="assistant-icon" />
+          <div className="assistant-name">哨站AI助理 ⌈乐·熙⌋ </div>
           <a href="https://cyrus-reed.com/#yuexi" className="assistant-link">查看简介</a>
         </div>
       </div>
