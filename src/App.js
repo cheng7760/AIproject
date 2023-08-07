@@ -65,7 +65,7 @@ function App() {
           </div>
           <p className="small-text2">（首次使用建议观看）</p>
         </div>
-        <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已支持选择 GPT-4 模型，适合新手使用。</p>
+        <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已联网模式，界面友好适合新手使用。</p>
       </div>
         <div className="category">
           <div className="category-line">
