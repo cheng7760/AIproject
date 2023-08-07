@@ -1,22 +1,9 @@
 import React, { useState } from 'react';
-import Modal from 'react-modal';
 import './App.css';
 
-Modal.setAppElement('#root');
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [token, setToken] = useState('');
-  const tokens = ['fk-I1-MvtrMRYbgWd2wW7ngwAbpclICiM3DD5__CYQpRlA', 'fk-nZguxVLvOOY_UpqW1KnctGx5z-7OP1spyTI7joKUKHo', 'fk-l_CYgFdgc1Y5xrP0YPUs1DvMhPEVY2yr99-LpUL3LTM'];
-  const handleOpenModal = () => {
-    const randomToken = tokens[Math.floor(Math.random() * tokens.length)];
-    setToken(randomToken);
-    setIsOpen(true);
-  }
-  const handleCloseModal = () => {
-    setIsOpen(false);
-  }
-    
+              
   return (
     <div className="App">
       <h1>先驱者科学前沿站</h1>
@@ -105,17 +92,7 @@ function App() {
         </div>
       </div>
       <p className="disclaimer">请注意：本站仅供学习交流，禁止产生任何敏感对话或图像等内容，否则将撤销使用权限，并自行承担任何后果。</p>
-      <Modal
-        isOpen={isOpen}
-        onRequestClose={handleCloseModal}
-        contentLabel="Token Modal"
-        className="ReactModal__Content"
-      >
-        <h2>您的Access Token：</h2>
-        <input type="text" value={token} readOnly className="token-input" />
-        <p>注意：本处获取的密钥为公用密钥，请在使用后在左侧边栏中删除自己的聊天历史，保护自己的隐私安全，如需个人密钥可联系管理员获取。</p>
-        <button onClick={handleCloseModal} className="close-modal-button">×</button>
-      </Modal>
+      
     </div>
   );
 }
