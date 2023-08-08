@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0; /* 调整上下边距以便在两部分之间留出空间 */
+  margin: 20px 0;
   margin-left: -34px;
 }
 .assistant-icon {
@@ -24,13 +24,13 @@
 }
 .assistant-name {
   margin-left: -20px;
-  margin-right: 20px; /* 为 "哨站AI助理 ⌈乐熙⌋" 添加右边距，增加它和 "添加微信" 之间的距离 */
+  margin-right: 20px;
 }
 .assistant-link {
   color: #007BFF;
   text-decoration: none;
   transition: color 0.3s ease;
-  margin-left: 10px; /* 在头像和链接之间添加空间 */
+  margin-left: 10px;
 }
 .assistant-link:hover {
   color: #0056b3;
@@ -40,27 +40,27 @@ h1 {
   padding: 20px 0px;
 }
 .intro-text {
-  font-size: 16px;  /* 调整字体大小 */
-  color: #999;  /* 调整字体颜色 */
-  font-style: normal;  /* 设置字体样式为正常，不斜体 */
-  text-align: center;  /* 文字居中对齐 */
-  margin-top: -30px;  /* 设置上边距为10px */
+  font-size: 16px;
+  color: #999;
+  font-style: normal;
+  text-align: center;
+  margin-top: -30px;
   margin-bottom: 40px;
 }
 .quote-container {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center the quote and author horizontally */
-  margin: -20px 0 20px 0; /* Adjust the top and bottom margin */
+  justify-content: center;
+  margin: -20px 0 20px 0;
 }
 .quote {
-  text-align: right; /* Right-align the quote and author */
-  color: #999; /* Change the color of the quote to match the author */
+  text-align: right;
+  color: #999;
 }
 .author {
   font-size: 12px;
   color: #999;
-  margin-right: 10px; /* Add right margin to the author */
+  margin-right: 10px;
 }
 .project {
   background-color: white;
@@ -84,9 +84,9 @@ h2 {
 .button-group {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align the buttons and the small text to the top */
-  max-width: 300px; /* Adjust this value to control the space between the buttons */
-  margin: 0 auto; /* This will center the button group */
+  align-items: flex-start;
+  max-width: 300px;
+  margin: 0 auto;
 }
 .button {
   display: inline-block;
@@ -120,75 +120,75 @@ h2 {
   white-space: nowrap;
 }
 .user-favorite {
-  background-color: #fff5e6; /* 淡粉色背景 */
-  padding: 30px; /* Increased padding */
-  margin-bottom: 50px; /* Increased margin */
-  border-radius: 10px; /* Increased border radius */
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Increased shadow */
+  background-color: #fff5e6;
+  padding: 30px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
 }
 .user-favorite .project {
-  border: 1px solid #007BFF; /* Add border to the project */
+  border: 1px solid #007BFF;
 }
 .user-favorite .category-line span {
-  color: #007BFF; /* Change the color of the category line */
-  font-weight: bold; /* Make the category line bold */
-  font-size: 24px; /* Increase the font size */
-  border: none; /* Remove the border */
+  color: #007BFF;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
 }
 .user-favorite .category-line::before,
 .user-favorite .category-line::after {
-  content: ""; /* This is necessary for the pseudo-elements to work */
-  flex-grow: 1; /* Grow to take up as much space as possible */
-  height: 1px; /* Set a height */
-  background: #007BFF; /* Use a blue color */
-  position: relative; /* Enable absolute positioning */
-  top: 50%; /* Center vertically */
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #007BFF;
+  position: relative;
+  top: 50%;
 }
 .user-favorite .category-line::before {
-  margin-right: 10px; /* Add some space between the line and the text */
+  margin-right: 10px;
 }
 .user-favorite .category-line::after {
-  margin-left: 10px; /* Add some space between the line and the text */
+  margin-left: 10px;
 }
 .editor-recommend {
-  background-color: #f0f8ff; /* Light blue background */
-  padding: 30px; /* Increased padding */
-  margin-bottom: 50px; /* Increased margin */
-  border-radius: 10px; /* Increased border radius */
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1); /* Increased shadow */
+  background-color: #f0f8ff;
+  padding: 30px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
 }
 .editor-recommend .project {
-  border: 1px solid #007BFF; /* Add border to the project */
+  border: 1px solid #007BFF;
 }
 .editor-recommend .category-line {
-  display: flex; /* Use flex layout */
-  justify-content: center; /* Center the text */
-  align-items: center; /* Center the text vertically */
-  position: relative; /* Enable absolute positioning for children */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .editor-recommend .category-line span {
-  color: #007BFF; /* Change the color of the category line */
-  font-weight: bold; /* Make the category line bold */
-  font-size: 24px; /* Increase the font size */
-  border: none; /* Remove the border */
+  color: #007BFF;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
 }
 .editor-recommend .category-line::before,
 .editor-recommend .category-line::after {
-  content: ""; /* This is necessary for the pseudo-elements to work */
-  flex-grow: 1; /* Grow to take up as much space as possible */
-  height: 1px; /* Set a height */
-  background: #007BFF; /* Use a blue color */
-  position: relative; /* Enable absolute positioning */
-  top: 50%; /* Center vertically */
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #007BFF;
+  position: relative;
+  top: 50%;
 }
 .editor-recommend .category-line::before {
-  margin-right: 10px; /* Add some space between the line and the text */
+  margin-right: 10px;
 }
 .editor-recommend .category-line::after {
-  margin-left: 10px; /* Add some space between the line and the text */
+  margin-left: 10px;
 }
 .editor-recommend .button {
-  background-color: #007BFF; /* Change the color of the button */
+  background-color: #007BFF;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -205,15 +205,15 @@ h2 {
   color: #007BFF;
   text-align: center;
   margin-top: -20px;
-  margin-bottom: -10px; /* 调整此值以控制推荐理由与下边框的距离 */
+  margin-bottom: -10px;
 }
 .version-container {
   display: flex;
-  flex-direction: row; /* Change this from column to row */
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%; /* reduce the width to move the items to the center */
-  margin: 0px auto; /* adjust the top and bottom margin */
+  width: 100%;
+  margin: 0px auto;
 }
 .version-container span {
   margin-right: 20px;
@@ -222,8 +222,8 @@ h2 {
   color: #007BFF;
   text-decoration: none;
   transition: color 0.3s ease;
-  margin-left: 20px; /* add some space between the version and the link */
-  white-space: nowrap; /* prevent the link text from wrapping */
+  margin-left: 20px;
+  white-space: nowrap;
 }
 .version-link:hover {
   color: #0056b3;
@@ -231,18 +231,18 @@ h2 {
 .small-text {
   font-size: 12px;
   color: #999;
-  text-align: left; /* Align the small text to the left */
-  margin-top: 9.2px; /* Adjust this value to control the vertical position of the small text */
-  width: 50%; /* Set the width of the small text to match the button */
-  margin-left: 55.2%; /* Push the small text to the right side */
+  text-align: left;
+  margin-top: 9.2px;
+  width: 50%;
+  margin-left: 55.2%;
 }
 .small-text2 {
   font-size: 12px;
   color: #999;
-  text-align: left; /* Align the small text to the left */
-  margin-top: 10px; /* Adjust this value to control the vertical position of the small text */
-  width: 50%; /* Set the width of the small text to match the button */
-  margin-left: 55.6%; /* Push the small text to the right side */
+  text-align: left;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 55.6%;
 }
 .disclaimer {
   font-size: 12px;
@@ -250,7 +250,7 @@ h2 {
   text-align: center;
   margin-top: 20px;
 }
-/* Media query formobile devices */
+
 @media (max-width: 768px) {
   .project-description {
     display: none;
@@ -259,12 +259,12 @@ h2 {
     display: block;
   }
   .small-text {
-    margin-left: 61.68%; /* Adjust this value for mobile devices */
+    margin-left: 61.68%;
   }
   .small-text2 {
-    margin-left: 59.08%; /* Adjust this value for mobile devices */
+    margin-left: 59.08%;
   }
   .small-text-chatgpt {
-    margin-left: 52.52%; /* Adjust this value for mobile devices */
+    margin-left: 52.52%;
   }
 }
