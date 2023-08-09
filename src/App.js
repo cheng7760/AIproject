@@ -17,9 +17,9 @@ function App() {
           <p><span>站点版本：v1.0.3</span> <span><a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a></span></p>
         </div>
         <div className="assistant-container">
-          <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="乐·熙头像" className="assistant-icon" />
-          <div className="assistant-name">哨站AI助理 ⌈乐·熙⌋ </div>
-          <a href="https://cyrus-reed.com/#yuexi" className="assistant-link">查看简介</a>
+          <img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-wechat.png" alt="ChatGPT头像" className="assistant-icon" />
+          <div className="assistant-name">哨站AI助理 ⌈ChatGPT⌋ </div>
+          <a href="https://cyrus-reed.com/#ChatGPT-wechat" className="assistant-link">查看简介</a>
         </div>
       </div>
       <div className="category user-favorite">
@@ -27,12 +27,12 @@ function App() {
           <span>🔥 用户最多 🔥</span>
         </div>
         <div className="project">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐·熙</h2>
-          <p className="project-description">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐·熙 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
-          <p className="project-description-mobile">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐·熙 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，拥有多轮会话上下文记忆，支持私聊和群聊的智能回复。</p>
+          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-wechat.png" alt="ChatGPT-wechat Icon" className="project-icon" /> ChatGPT-wechat</h2>
+          <p className="project-description">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
+          <p className="project-description-mobile">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，拥有多轮会话上下文记忆，支持私聊和群聊的智能回复。</p>
           <div className="button-group">
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="button">获取微信</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/YueXi.txt" className="button">查看教程</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/ChatGPT-wechat tokens.txt" className="button">获取微信</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-wechat.txt" className="button">查看教程</a>
           </div>
           <p className="small-text2">（首次使用建议观看）</p>
         </div>
@@ -81,12 +81,12 @@ function App() {
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
-        <div className="project" id="yuexi">
-          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/YueXi.png" alt="YueXi Icon" className="project-icon" /> 乐·熙</h2>
-          <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 乐·熙 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
+        <div className="project" id="ChatGPT-wechat">
+          <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-wechat.png" alt="ChatGPT-wechat Icon" className="project-icon" /> ChatGPT-wechat</h2>
+          <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
           <div className="button-group">
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/YueXi tokens.txt" className="button">获取微信</a>
-            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/YueXi.txt" className="button">查看教程</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/ChatGPT-wechat tokens.txt" className="button">获取微信</a>
+            <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-wechat.txt" className="button">查看教程</a>
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
