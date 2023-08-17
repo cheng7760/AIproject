@@ -60,7 +60,7 @@ function App() {
         </div>
         <div className="project" id="bing">
             <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Bing AI.png" alt="Bing AI Icon" className="project-icon" /> Bing AI</h2>
-            <p>本站点基于微软 New Bing 原生网站并进行了定制，提供了一致的用户界面体验，内置了 API 让您无需登录就可以开始聊天。它支持 ChatGPT 提示词，让您的聊天体验更加流畅。同时，您还可以使用画图等高级功能，为您的聊天添加更多的趣味和创造力。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加丰富。</p>
+            <p>本站点基于 Next.js 重写，高度还原 New Bing Web 版 UI，提供了一致的用户界面体验，内置了 API 让您无需登录就可以开始聊天。同时，它的后端经过深度优化，响应速度与对话质量大幅提升。现已支持识图功能，Bing 可以根据用户上传的图片进行对话，无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加丰富。</p>
             <div className="button-group">
               <a href="https://bingo.cyrus-reed.com" className="button">进入站点</a>
               <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Bing AI.txt" className="button">查看教程</a>
