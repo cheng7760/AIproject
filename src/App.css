@@ -85,6 +85,13 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.button-group2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   max-width: 360px;
   margin: 0 auto;
 }
