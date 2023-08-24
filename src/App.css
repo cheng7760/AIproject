@@ -100,7 +100,16 @@ h2 {
   font-size: 16px;
 }
 .btn-spacing {
-    margin-left: 10px;
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15px
 }
 .category-line {
   display: flex;
