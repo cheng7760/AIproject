@@ -28,8 +28,8 @@ function App() {
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-wechat.png" alt="ChatGPT-wechat Icon" className="project-icon" /> ChatGPT-wechat</h2>
-          <p className="project-description">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
-          <p className="project-description-mobile">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，拥有多轮会话上下文记忆，支持私聊和群聊的智能回复。</p>
+          <p className="project-description">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-4 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
+          <p className="project-description-mobile">本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-4 模型，可以提供高质量的对话体验，拥有多轮会话上下文记忆，支持私聊和群聊的智能回复。</p>
           <div className="button-group">
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/ChatGPT-wechat tokens.txt" className="button">获取微信</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-wechat.txt" className="button">查看教程</a>
@@ -44,8 +44,8 @@ function App() {
         </div>
         <div className="project" id="chatgpt-next-web">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-          <p className="project-description">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持 GPT-3.5-Turbo 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
-          <p className="project-description-mobile">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持 GPT-3.5-Turbo 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。</p>
+          <p className="project-description">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持最先进的 GPT-4-32k 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
+          <p className="project-description-mobile">本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持最先进的 GPT-4-32k 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。</p>
           <div className="button-group">
             <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
@@ -83,7 +83,7 @@ function App() {
         </div>
         <div className="project">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT Next Web.png" alt="ChatGPT Next Web Icon" className="project-icon" /> ChatGPT Next Web</h2>
-          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持 GPT-3.5-Turbo 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
+          <p>本站点基于 OPENAI API 开发，内置了 KEY 让您无需登录就可以开始聊天，现已支持最先进的 GPT-4-32k 模型，特点包括完整的 Markdown 支持，以及精心设计的 UI，响应式设计，支持深色模式，支持 PWA。此外，它还提供了预制角色功能，方便您进行个性化对话。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加流畅。</p>
           <div className="button-group">
             <a href="https://chatgpt-next-web.cyrus-reed.com" className="button">进入站点</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="button">查看教程</a>
@@ -92,7 +92,7 @@ function App() {
         </div>
         <div className="project" id="ChatGPT-wechat">
           <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-wechat.png" alt="ChatGPT-wechat Icon" className="project-icon" /> ChatGPT-wechat</h2>
-          <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-3.5-Turbo 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
+          <p>本项目基于 OPENAI API 开发，内置了 KEY 让您只需微信添加 ChatGPT 即可开始聊天，它使用 GPT-4 模型，可以提供高质量的对话体验，支持私聊和群聊的智能回复。同时，它拥有多轮会话上下文记忆，能够理解记住对话的上下文，提供连贯相关的回复。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加沉浸。</p>
           <div className="button-group">
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/tokens/ChatGPT-wechat tokens.txt" className="button">获取微信</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-wechat.txt" className="button">查看教程</a>
