@@ -85,7 +85,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 300px;
+  max-width: 340px;
   margin: 0 auto;
 }
 .button {
