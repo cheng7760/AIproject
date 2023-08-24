@@ -52,7 +52,7 @@ function App() {
           </div>
           <p className="small-text2">（首次使用建议观看）</p>
         </div>
-        <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，已支持 GPT-3.5-Turbo 模型，适合新手使用。</p>
+        <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，支持最先进的 GPT-4-32k 模型，适合新手使用。</p>
       </div>
         <div className="category">
           <div className="category-line">
