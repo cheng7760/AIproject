@@ -16,6 +16,7 @@ function App() {
         <div className="version-container">
           <p><span>站点版本：v1.0.3</span> <span><a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a></span></p>
       </div>
+     </div>
       <div className="category editor-recommend">
         <div className="category-line">
           <span>🏅 编辑推荐 🏅</span>
