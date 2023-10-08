@@ -14,7 +14,7 @@ function App() {
           <p className="author">——斯蒂芬·霍金</p>
         </div>
         <div className="version-container">
-          <p><span>站点版本：v1.0.3</span> <span><a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a></span></p>
+          <p><span>站点版本：v2.0.0</span> <span><a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/logs/Cyrus-website.txt" className="version-link">查看更新日志</a></span></p>
       </div>
      </div>
       <div className="category editor-recommend">
