@@ -46,15 +46,6 @@ function App() {
             </div>
             <p className="small-text">（首次使用建议观看）</p>
           </div>
-        <div className="project" id="midjourney">
-            <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/Midjourney.png" alt="Midjourney Icon" className="project-icon" /> Midjourney</h2>
-            <p>本站点基于 Midjourney 原生 Discord 进行了定制，提供了追求极致的创作体验，您仅需使用前缀 /mj+提示词 就可以使用。同时，它的后端经过优化，使得图像生成和处理更快。它支持高清图像生成、图像变化、重新生成图像、根据描述绘制、图像融合等功能。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的创作体验更加愉悦。</p>
-            <div className="button-group">
-              <a href="https://chatgpt-midjourney.cyrus-reed.com" className="button">进入站点</a>
-              <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/Midjourney.txt" className="button">查看教程</a>
-            </div>
-            <p className="small-text">（首次使用建议观看）</p>
-          </div>
         </div>
       <div className="category">
         <div className="category-line">
@@ -69,9 +60,17 @@ function App() {
           </div>
           <p className="small-text">（首次使用建议观看）</p>
         </div>
+        <div className="project">
+            <h2><img src="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/icons/ChatGPT-Midjourney.png" alt="ChatGPT-Midjourney Icon" className="project-icon" /> ChatGPT-Midjourney</h2>
+            <p>本站点基于 ChatGPT Next Web 开发，定制加入了 Midjourney 绘图功能，您仅需使用前缀 /mj+提示词 就可以使用。同时，它的后端经过优化，使得图像生成和处理更快。它支持高清图像生成、图像变化、重新生成图像、根据描述绘制、图像融合等功能。无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的创作体验更加愉悦。</p>
+            <div className="button-group">
+              <a href="https://chatgpt-midjourney.cyrus-reed.com" className="button">进入站点</a>
+              <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT-Midjourney.txt" className="button">查看教程</a>
+            </div>
+            <p className="small-text">（首次使用建议观看）</p>
+          </div>
       </div>
       <p className="disclaimer">请注意：本站仅供学习交流，禁止产生任何敏感对话或图像等内容，否则将撤销使用权限，并自行承担任何后果。</p>
-      
     </div>
   );
 }
