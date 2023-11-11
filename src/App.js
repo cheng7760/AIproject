@@ -60,7 +60,7 @@ function App() {
             <a href="https://cloudflare-reverse-proxy.cyrus-reed.com/proxy/https://raw.githubusercontent.com/Cyrus-Reed/Cyrus-app/main/Android/ChatGPT_1.0.apk" className="chatgpt-button">下载应用</a>
             <a href="https://raw.gitmirror.com/Cyrus-Reed/Cyrus-website/main/public/faqs/ChatGPT Next Web.txt" className="chatgpt-button">查看教程</a>
          </div>
-          <p className="small-text">（首次使用建议观看）</p>
+          <p className="small-text3">（首次使用建议观看）</p>
         </div>
       </div>
       <p className="disclaimer">请注意：本站仅供学习交流，使用时请遵守《生成式人工智能服务管理暂行办法》，否则将撤销使用权限，并自行承担任何后果。</p>
