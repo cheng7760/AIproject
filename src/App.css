@@ -76,13 +76,12 @@ h2 {
 }
 .chatgpt-button-group {
   display: flex;
-  justify-content: center; /* 居中对齐 */
+  justify-content: center;
   align-items: center;
-  max-width: 600px; /* 可根据需要调整最大宽度 */
+  max-width: 600px;
   margin: 0 auto;
-  flex-wrap: wrap; /* 允许在必要时换行 */
+  flex-wrap: wrap;
 }
-
 .chatgpt-button {
   display: inline-block;
   background-color: #007BFF;
@@ -93,7 +92,7 @@ h2 {
   transition: background-color 0.3s ease;
   cursor: pointer;
   font-size: 16px;
-  margin: 5px; /* 调整边距以确保按钮之间有空间 */
+  margin: 5px 15px; /* 增加水平边距 */
 }
 .category-line {
   display: flex;
