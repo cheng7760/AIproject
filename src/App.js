@@ -29,7 +29,7 @@ function App() {
           </div>
           <p className="small-text2">（首次使用建议观看）</p>
         </div>
-        <p className="recommendation">推荐理由：功能丰富，无需登录点击即用，支持联网搜索和 GPT-4 模型，适合新手使用。</p>
+        <p className="recommendation">推荐理由：功能丰富，拥有用户登录、注册和管理等多端数据同步功能，最高支持 GPT-4 模型，内容安全。</p>
       </div>
         <div className="category">
           <div className="category-line">
